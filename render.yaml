@@ -1,0 +1,19 @@
+# Render Blueprint - Portale SGI Toscana Diagnostica
+# Deploy: New + > Blueprint > seleziona il repo GitHub. Render legge questo file e crea il servizio.
+services:
+  - type: web
+    name: td-sgi-portale
+    runtime: python
+    plan: free            # 750 ore/mese; si addormenta dopo 15 min di inattivita' (primo accesso lento ~30 s). Per il link SMS ai pazienti valutare il piano Starter.
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 2 --threads 4 --timeout 60
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.6
+      - key: SGI_USER
+        value: sgi
+      - key: SGI_PASSWORD
+        sync: false       # lasciare vuota = portale interamente pubblico (scelta AD 01/10/2026). Impostarla = area documentale protetta da password, Preparazioni sempre pubbliche.

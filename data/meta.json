@@ -1,0 +1,31 @@
+{
+ "reg006_rev": "76",
+ "reg006_data": "1 ottobre 2026",
+ "n_docs": 562,
+ "n_pdf": 562,
+ "n_stampabili": 352,
+ "n_prestazioni": 566,
+ "build": "01/10/2026 18:20",
+ "mancanti": [],
+ "esclusi": [],
+ "aree": [
+  "01. Gestione del Sistema",
+  "02. Anticorruzione e Whistleblowing",
+  "03. Parità di Genere",
+  "04. Sostenibilità",
+  "05. Sicurezza",
+  "06. Tutela dell'Ambiente",
+  "07. Rischio Clinico",
+  "08. Sistema Informativo",
+  "09. Privacy",
+  "10. Audit",
+  "11. HTA",
+  "12. People",
+  "13. Finance",
+  "14. Operations",
+  "15. Customer Experience",
+  "16. Business",
+  "17. Accettazione",
+  "18. Laboratorio di Analisi"
+ ]
+}

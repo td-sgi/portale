@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#01212C">
+<meta name="robots" content="noindex, nofollow">
+<title>Portale SGI · Toscana Diagnostica</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side" id="side"></aside>
+  <main class="main">
+    <div class="topbar" id="topbar"></div>
+    <div class="page">
+      <div class="page-head">
+        <div>
+          <h1>Cruscotto documentale</h1>
+          <div class="sub">Tutti i documenti attivi del Sistema di Gestione Integrato, nella revisione in vigore. La ricerca opera su codice, titolo, sintesi, area e sul testo integrale dei PDF.</div>
+        </div>
+        <a class="btn" href="/preparazioni">Preparazioni agli esami</a>
+      </div>
+
+      <div class="grid g4" id="kpis"></div>
+
+      <div class="card mt">
+        <div class="bd">
+          <div class="filters">
+            <label class="f" style="flex:1 1 360px">Cerca
+              <div class="searchbox" id="sb"><input type="text" id="searchInput" placeholder="Es. consenso informato, Just Culture, privacy, breath test, PRO042…" autocomplete="off" autofocus><button class="iconbtn clear" id="searchClear" title="Cancella" aria-label="Cancella ricerca"></button></div>
+            </label>
+            <label class="f" style="flex:0 1 300px">Area SGI<select id="areaSelect"></select></label>
+          </div>
+          <div class="row">
+            <div class="seg" id="famSeg"></div>
+            <span class="help" id="searchStats"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt" id="resultsSection" style="display:none">
+        <div class="hd"><h2>Risultati</h2><span class="spacer"></span><span class="badge b-teal" id="resultsCount">0</span></div>
+        <div class="bd flush table-wrap"><table class="t"><thead><tr><th>Codice</th><th>Documento</th><th>Area</th><th>Rev. · data</th><th class="num">Apri</th></tr></thead><tbody id="resultsList"></tbody></table></div>
+        <div id="resultsMore"></div>
+      </div>
+
+      <div class="grid g2 mt" id="homeGrid">
+        <div class="card"><div class="hd"><h2>Documenti cardine</h2></div><div class="bd"><div class="tiles" id="topGrid"></div></div></div>
+        <div class="card"><div class="hd"><h2>Le 18 aree del SGI</h2></div><div class="bd"><div class="tiles" id="areaGrid"></div></div></div>
+      </div>
+
+      <div class="card mt" id="linksCard">
+        <div class="hd"><h2>Link stabili</h2></div>
+        <div class="bd small muted">Ogni documento ha un indirizzo che non cambia con la revisione: <span class="chip">/doc/TD-SGI-XXXNNN</span> apre il PDF corrente, <span class="chip">/m/TD-SGI-XXXNNN</span> apre la versione stampabile senza cover (moduli, informative, documenti esterni), <span class="chip">/p/&lt;codice GIPO&gt;</span> apre la preparazione della prestazione. Il pulsante Link di ogni riga copia l'indirizzo negli appunti.</div>
+      </div>
+
+      <footer class="foot" id="footer"></footer>
+    </div>
+  </main>
+</div>
+<script src="/static/shell.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#01212C">
+<title>Preparazioni agli esami · Toscana Diagnostica</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side" id="side"></aside>
+  <main class="main">
+    <div class="topbar" id="topbar"></div>
+    <div class="page">
+      <div class="page-head">
+        <div>
+          <h1>Preparazioni agli esami</h1>
+          <div class="sub">Cerca la prestazione prenotata con il codice riportato nella conferma ricevuta via SMS oppure con il nome dell'esame: troverai le istruzioni da seguire prima di presentarti in sede. Ogni istruzione è un documento ufficiale del Sistema di Gestione Integrato di Toscana Diagnostica, sempre nella versione in vigore.</div>
+        </div>
+      </div>
+
+      <div id="notice"></div>
+
+      <div class="card">
+        <div class="bd">
+          <div class="filters" style="margin-bottom:6px">
+            <label class="f" style="flex:1 1 420px">Cerca la tua prestazione
+              <div class="searchbox" id="sb"><input type="text" id="searchInput" placeholder="Codice prestazione o nome dell'esame (es. ecografia addome, curva glicemica, RM…)" autocomplete="off" autofocus><button class="iconbtn clear" id="searchClear" title="Cancella" aria-label="Cancella ricerca"></button></div>
+            </label>
+            <label class="f" style="flex:0 1 260px">Gruppo<select id="gruppoSelect"><option value="all">Tutti</option></select></label>
+          </div>
+          <span class="help" id="searchStats"></span>
+        </div>
+      </div>
+
+      <div class="card mt" id="resultsSection">
+        <div class="hd"><h2>Prestazioni e preparazione</h2><span class="spacer"></span><span class="badge b-teal" id="resultsCount">0</span></div>
+        <div class="bd flush table-wrap"><table class="t"><thead><tr><th>Codice GIPO</th><th>Prestazione</th><th>Preparazione</th><th>Link per GIPO</th></tr></thead><tbody id="resultsList"></tbody></table></div>
+        <div id="resultsMore"></div>
+      </div>
+
+      <div class="card mt" id="allPrep">
+        <div class="hd"><h2>Tutte le istruzioni di preparazione</h2><span class="spacer"></span><span class="help">versioni stampabili, senza frontespizio</span></div>
+        <div class="bd"><div class="tiles" id="prepGrid"></div></div>
+      </div>
+
+      <div class="alert info mt" style="margin-top:16px">Per ogni dubbio contatta il centro dove hai prenotato: la preparazione corretta garantisce un esame affidabile e ti evita di dover tornare.</div>
+      <footer class="foot" id="footer"></footer>
+    </div>
+  </main>
+</div>
+<script src="/static/shell.js"></script>
+<script>
+(function () {
+  const { icon, esc, norm, toast, copy, shell } = window.SGI;
+  const $ = id => document.getElementById(id);
+  const slug = s => String(s).normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  let ROWS = [], gruppo = 'all';
+  const grp = r => ((r.extra || {})['Gruppo'] || '').replace(/^\s*-\s*/, '').trim();
+
+  function row(r) {
+    const ex = r.extra || {};
+    const links = (r.link || []).map(l => `<a class="btn sm" href="${encodeURI('/' + l.file)}" target="_blank">${icon('doc', 14)} ${esc(l.title)}</a>`).join(' ');
+    const url = r.url ? location.origin + r.url : null;
+    return `<tr>
+      <td><span class="doc-code">${esc(r.codice)}</span>${ex['Codice shortcut'] && ex['Codice shortcut'] !== r.codice ? `<div class="small muted">short ${esc(ex['Codice shortcut'])}</div>` : ''}</td>
+      <td><div class="doc-title">${esc(r.descrizione)}</div><div class="doc-sintesi">${esc([grp(r), ex['Specialità']].filter(Boolean).join(' · '))}</div></td>
+      <td><div class="doc-actions" style="justify-content:flex-start">${links || '<span class="badge b-grey">nessuna preparazione</span>'}</div></td>
+      <td>${url ? `<span class="url" data-url="${esc(url)}" title="Copia il link da inserire in GIPO">${esc(url)}</span>` : ''}</td>
+    </tr>`;
+  }
+
+  function render(q) {
+    const terms = norm(q.trim()).split(/\s+/).filter(Boolean);
+    const res = ROWS.filter(r => (gruppo === 'all' || grp(r) === gruppo) && (!terms.length || terms.every(t => norm(r.codice + ' ' + r.descrizione + ' ' + Object.values(r.extra || {}).join(' ') + ' ' + (r.link || []).map(l => l.title + ' ' + l.code).join(' ')).includes(t))));
+    $('resultsCount').textContent = res.length;
+    $('searchStats').textContent = (terms.length || gruppo !== 'all') ? res.length + ' prestazioni trovate' : ROWS.length + ' prestazioni con preparazione pubblicata';
+    if (!ROWS.length) { $('resultsList').innerHTML = '<tr><td colspan="4" class="empty">L\'elenco delle prestazioni non è ancora stato pubblicato.</td></tr>'; return; }
+    if (!res.length) { $('resultsList').innerHTML = '<tr><td colspan="4" class="empty">Nessuna prestazione corrisponde alla ricerca.</td></tr>'; $('resultsMore').innerHTML = ''; return; }
+    const slice = res.slice(0, 200);
+    $('resultsList').innerHTML = slice.map(row).join('');
+    $('resultsMore').innerHTML = res.length > 200 ? `<div class="empty small">Mostrate le prime 200 prestazioni su ${res.length}. Affina la ricerca.</div>` : '';
+    $('resultsList').querySelectorAll('.url').forEach(el => el.addEventListener('click', () => copy(el.dataset.url)));
+  }
+
+  Promise.all([fetch('/api/preparazioni').then(r => r.json()), fetch('/api/meta').then(r => r.json()), fetch('/api/informative').then(r => r.ok ? r.json() : [])])
+    .then(([p, m, infs]) => {
+      ROWS = p.righe || [];
+      shell('prep', m, null, null);
+      const gruppi = [...new Set(ROWS.map(grp).filter(Boolean))].sort();
+      $('gruppoSelect').innerHTML = '<option value="all">Tutti i gruppi</option>' + gruppi.map(g => `<option value="${esc(g)}">${esc(g)}</option>`).join('');
+      $('gruppoSelect').addEventListener('change', e => { gruppo = e.target.value; render($('searchInput').value); });
+      $('prepGrid').innerHTML = (infs || []).map(d => `<a class="tile" href="${encodeURI('/stampabili/' + d.stampabile)}" target="_blank"><div class="code">${esc(d.code.split('_')[0])}</div><div class="name">${esc(d.title)}</div></a>`).join('');
+      if (!infs || !infs.length) $('allPrep').style.display = 'none';
+      $('footer').innerHTML = `Toscana Diagnostica S.r.l. · Preparazioni agli esami · documenti del Sistema di Gestione Integrato, indice REG006 rev. ${esc(m.reg006_rev)} del ${esc(m.reg006_data)} · pubblicazione del ${esc(m.build)}`;
+      const inp = $('searchInput'), clr = $('searchClear');
+      clr.innerHTML = icon('x', 16); $('sb').insertAdjacentHTML('afterbegin', icon('search'));
+      const upd = () => clr.classList.toggle('on', inp.value.length > 0);
+      inp.addEventListener('input', e => { upd(); render(e.target.value); });
+      clr.addEventListener('click', () => { inp.value = ''; upd(); render(''); inp.focus(); });
+      const qs = new URLSearchParams(location.search); const cod = qs.get('codice') || qs.get('q');
+      if (cod) {
+        inp.value = cod; upd();
+        const hit = ROWS.find(r => slug(r.codice).toLowerCase() === slug(cod).toLowerCase());
+        if (!hit) $('notice').innerHTML = `<div class="alert warn">${icon('info', 18)}<div>Il codice <strong>${esc(cod)}</strong> non è presente nell'elenco delle preparazioni pubblicate. Usa la ricerca per nome dell'esame oppure contatta il centro di prenotazione.</div></div>`;
+      }
+      render(inp.value);
+    });
+})();
+</script>
+</body>
+</html>
