@@ -19,7 +19,7 @@
       <div class="page-head">
         <div>
           <h1>Preparazioni agli esami</h1>
-          <div class="sub">Cerca la prestazione prenotata con il codice riportato nella conferma ricevuta via SMS oppure con il nome dell'esame: troverai le istruzioni da seguire prima di presentarti in sede. Ogni istruzione è un documento ufficiale del Sistema di Gestione Integrato di Toscana Diagnostica, sempre nella versione in vigore.</div>
+          <div class="sub">Cerca la prestazione prenotata con il codice riportato nella conferma ricevuta via SMS (es. ECO003) oppure con il nome dell'esame: troverai le istruzioni da seguire prima di presentarti in sede. Ogni istruzione è un documento ufficiale del Sistema di Gestione Integrato di Toscana Diagnostica, sempre nella versione in vigore.</div>
         </div>
       </div>
 
@@ -39,7 +39,7 @@
 
       <div class="card mt" id="resultsSection">
         <div class="hd"><h2>Prestazioni e preparazione</h2><span class="spacer"></span><span class="badge b-teal" id="resultsCount">0</span></div>
-        <div class="bd flush table-wrap"><table class="t"><thead><tr><th>Codice GIPO</th><th>Prestazione</th><th>Preparazione</th><th>Link per GIPO</th></tr></thead><tbody id="resultsList"></tbody></table></div>
+        <div class="bd flush table-wrap"><table class="t"><thead><tr><th>Codice</th><th>Prestazione</th><th>Preparazione</th><th>Link per GIPO</th></tr></thead><tbody id="resultsList"></tbody></table></div>
         <div id="resultsMore"></div>
       </div>
 
@@ -67,7 +67,7 @@
     const links = (r.link || []).map(l => `<a class="btn sm" href="${encodeURI('/' + l.file)}" target="_blank">${icon('doc', 14)} ${esc(l.title)}</a>`).join(' ');
     const url = r.url ? location.origin + r.url : null;
     return `<tr>
-      <td><span class="doc-code">${esc(r.codice)}</span>${ex['Codice shortcut'] && ex['Codice shortcut'] !== r.codice ? `<div class="small muted">short ${esc(ex['Codice shortcut'])}</div>` : ''}</td>
+      <td><span class="doc-code">${esc(r.shortcut || r.codice)}</span>${r.shortcut && r.shortcut !== r.codice ? `<div class="small muted">GIPO ${esc(r.codice)}</div>` : ''}</td>
       <td><div class="doc-title">${esc(r.descrizione)}</div><div class="doc-sintesi">${esc([grp(r), ex['Specialità']].filter(Boolean).join(' · '))}</div></td>
       <td><div class="doc-actions" style="justify-content:flex-start">${links || '<span class="badge b-grey">nessuna preparazione</span>'}</div></td>
       <td>${url ? `<span class="url" data-url="${esc(url)}" title="Copia il link da inserire in GIPO">${esc(url)}</span>` : ''}</td>
@@ -76,7 +76,7 @@
 
   function render(q) {
     const terms = norm(q.trim()).split(/\s+/).filter(Boolean);
-    const res = ROWS.filter(r => (gruppo === 'all' || grp(r) === gruppo) && (!terms.length || terms.every(t => norm(r.codice + ' ' + r.descrizione + ' ' + Object.values(r.extra || {}).join(' ') + ' ' + (r.link || []).map(l => l.title + ' ' + l.code).join(' ')).includes(t))));
+    const res = ROWS.filter(r => (gruppo === 'all' || grp(r) === gruppo) && (!terms.length || terms.every(t => norm(r.codice + ' ' + (r.shortcut || '') + ' ' + r.descrizione + ' ' + Object.values(r.extra || {}).join(' ') + ' ' + (r.link || []).map(l => l.title + ' ' + l.code).join(' ')).includes(t))));
     $('resultsCount').textContent = res.length;
     $('searchStats').textContent = (terms.length || gruppo !== 'all') ? res.length + ' prestazioni trovate' : ROWS.length + ' prestazioni con preparazione pubblicata';
     if (!ROWS.length) { $('resultsList').innerHTML = '<tr><td colspan="4" class="empty">L\'elenco delle prestazioni non è ancora stato pubblicato.</td></tr>'; return; }
@@ -105,7 +105,7 @@
       const qs = new URLSearchParams(location.search); const cod = qs.get('codice') || qs.get('q');
       if (cod) {
         inp.value = cod; upd();
-        const hit = ROWS.find(r => slug(r.codice).toLowerCase() === slug(cod).toLowerCase());
+        const hit = ROWS.find(r => slug(r.shortcut || r.codice).toLowerCase() === slug(cod).toLowerCase() || slug(r.codice).toLowerCase() === slug(cod).toLowerCase());
         if (!hit) $('notice').innerHTML = `<div class="alert warn">${icon('info', 18)}<div>Il codice <strong>${esc(cod)}</strong> non è presente nell'elenco delle preparazioni pubblicate. Usa la ricerca per nome dell'esame oppure contatta il centro di prenotazione.</div></div>`;
       }
       render(inp.value);

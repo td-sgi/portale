@@ -140,6 +140,10 @@ def read_prestazioni(path, printables_by_code):
     col_code = next((i for i, h in enumerate(hdr) if 'cod' in h.lower()), 0)
     col_desc = next((i for i, h in enumerate(hdr) if any(k in h.lower() for k in ('descr', 'prestaz', 'esame', 'nome'))
                      and i not in (col_prep, col_code)), None)
+    # Chiave dei link pubblici: il codice shortcut (es. ECO003), mai il codice GIPO numerico (AD, 02/10/2026).
+    col_short = next((i for i, h in enumerate(hdr) if 'shortcut' in h.lower()), None)
+    if col_short is None:
+        sys.exit("Nel file prestazioni non trovo la colonna 'Codice shortcut': e' la chiave dei link /p/")
     out = []
     for r in rows[hdr_i + 1:]:
         if not r or r[col_code] is None:
@@ -152,8 +156,16 @@ def read_prestazioni(path, printables_by_code):
                 if c and c not in refs:
                     refs.append(c)
         extra = {hdr[i]: ('' if r[i] is None else str(r[i]).strip()) for i in range(len(hdr)) if hdr[i] and i not in (col_prep, col_code, col_desc)}
-        out.append({'codice': str(r[col_code]).strip(), 'descrizione': str(r[col_desc] or '').strip() if col_desc is not None else '',
+        short = str(r[col_short]).strip() if r[col_short] is not None else ''
+        if not short:
+            sys.exit(f"Prestazione {r[col_code]} senza codice shortcut: correggere l'Excel")
+        out.append({'codice': str(r[col_code]).strip(), 'shortcut': short,
+                    'descrizione': str(r[col_desc] or '').strip() if col_desc is not None else '',
                     'preparazione_raw': str(prep_raw or '').strip(), 'preparazioni': refs, 'extra': extra})
+    shorts = [o['shortcut'].upper() for o in out]
+    dup = sorted({x for x in shorts if shorts.count(x) > 1})
+    if dup:
+        sys.exit(f"Codici shortcut duplicati nell'Excel (devono essere univoci): {dup}")
     return hdr, col_prep, col_code, col_desc, out
 
 
@@ -249,7 +261,7 @@ def main():
                 else:
                     prep['non_risolte'].append({'codice': row['codice'], 'rif': ref})
             row['link'] = links
-            row['url'] = '/p/' + slug(row['codice']) if links else None
+            row['url'] = '/p/' + slug(row['shortcut']) if links else None
             prep['righe'].append(row)
         prep['colonne'] = {'intestazione': hdr, 'preparazioni': cp, 'codice': cc, 'descrizione': cd}
         print(f"Prestazioni: {len(rows)} righe, {sum(1 for r in rows if r['link'])} con preparazione collegata, {len(prep['non_risolte'])} riferimenti non risolti")

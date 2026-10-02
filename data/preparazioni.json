@@ -2,6 +2,7 @@
 "righe": [
 {
 "codice": "841125",
+"shortcut": "1079",
 "descrizione": "Curva standard glicemica da carico",
 "preparazione_raw": "TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf",
 "preparazioni": [
@@ -20,10 +21,11 @@
 "file": "stampabili/TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf"
 }
 ],
-"url": "/p/841125"
+"url": "/p/1079"
 },
 {
 "codice": "841142",
+"shortcut": "1090",
 "descrizione": "Curva da carico di glucosio (75 grammi)",
 "preparazione_raw": "TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf",
 "preparazioni": [
@@ -42,10 +44,11 @@
 "file": "stampabili/TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf"
 }
 ],
-"url": "/p/841142"
+"url": "/p/1090"
 },
 {
 "codice": "841164",
+"shortcut": "1166",
 "descrizione": "Curva Glicemica Gravidanza",
 "preparazione_raw": "TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf",
 "preparazioni": [
@@ -64,10 +67,11 @@
 "file": "stampabili/TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf"
 }
 ],
-"url": "/p/841164"
+"url": "/p/1166"
 },
 {
 "codice": "841196",
+"shortcut": "1282",
 "descrizione": "Glicemia Preprandiale",
 "preparazione_raw": "TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post Prandiale.pdf",
 "preparazioni": [
@@ -86,10 +90,11 @@
 "file": "stampabili/TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post-Prandiale.pdf"
 }
 ],
-"url": "/p/841196"
+"url": "/p/1282"
 },
 {
 "codice": "841199",
+"shortcut": "13091",
 "descrizione": "B 2 Microglobulina 24h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -108,10 +113,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841199"
+"url": "/p/13091"
 },
 {
 "codice": "841239",
+"shortcut": "1378",
 "descrizione": "Insulinemia post prandiale",
 "preparazione_raw": "TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post Prandiale.pdf",
 "preparazioni": [
@@ -130,10 +136,11 @@
 "file": "stampabili/TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post-Prandiale.pdf"
 }
 ],
-"url": "/p/841239"
+"url": "/p/1378"
 },
 {
 "codice": "841241",
+"shortcut": "1382",
 "descrizione": "Peptide C Post Prandiale",
 "preparazione_raw": "TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post Prandiale.pdf",
 "preparazioni": [
@@ -152,10 +159,11 @@
 "file": "stampabili/TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post-Prandiale.pdf"
 }
 ],
-"url": "/p/841241"
+"url": "/p/1382"
 },
 {
 "codice": "841260",
+"shortcut": "1488",
 "descrizione": "Breath Test urea C13 (lettura + kit)",
 "preparazione_raw": "TD-SGI-INF074_00 - Informativa Breath Test Urea (Helicobacter pylori).pdf\nTD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -180,10 +188,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/841260"
+"url": "/p/1488"
 },
 {
 "codice": "841324",
+"shortcut": "201",
 "descrizione": "Glicemia Post Prandiale",
 "preparazione_raw": "TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post Prandiale.pdf",
 "preparazioni": [
@@ -202,10 +211,11 @@
 "file": "stampabili/TD-SGI-INF001_0p_Glicemia, Insulinemia, Peptide C Post-Prandiale.pdf"
 }
 ],
-"url": "/p/841324"
+"url": "/p/201"
 },
 {
 "codice": "841330",
+"shortcut": "206",
 "descrizione": "Glicosuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -224,10 +234,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841330"
+"url": "/p/206"
 },
 {
 "codice": "841336",
+"shortcut": "211",
 "descrizione": "Azoturia (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -246,10 +257,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841336"
+"url": "/p/211"
 },
 {
 "codice": "841337",
+"shortcut": "2111",
 "descrizione": "Clearance Urea (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -268,10 +280,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841337"
+"url": "/p/2111"
 },
 {
 "codice": "841341",
+"shortcut": "221",
 "descrizione": "Clearance della Creatinina (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -290,10 +303,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841341"
+"url": "/p/221"
 },
 {
 "codice": "841344",
+"shortcut": "2239",
 "descrizione": "Breath Test Lattosio (Lettura + Kit)",
 "preparazione_raw": "TD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -312,10 +326,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/841344"
+"url": "/p/2239"
 },
 {
 "codice": "841345",
+"shortcut": "2239L",
 "descrizione": "Breath Test Lattulosio (Lettura + Kit)",
 "preparazione_raw": "TD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -334,10 +349,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/841345"
+"url": "/p/2239L"
 },
 {
 "codice": "841352",
+"shortcut": "231",
 "descrizione": "Uricosuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -356,10 +372,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841352"
+"url": "/p/231"
 },
 {
 "codice": "841354",
+"shortcut": "232",
 "descrizione": "Creatininuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -378,10 +395,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841354"
+"url": "/p/232"
 },
 {
 "codice": "841365",
+"shortcut": "251",
 "descrizione": "Sodio urinario (Na) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -400,10 +418,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841365"
+"url": "/p/251"
 },
 {
 "codice": "841366",
+"shortcut": "252",
 "descrizione": "Potassio Urinario ( K ) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -422,10 +441,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841366"
+"url": "/p/252"
 },
 {
 "codice": "841367",
+"shortcut": "253",
 "descrizione": "Cloro urinario (Cl) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -444,10 +464,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841367"
+"url": "/p/253"
 },
 {
 "codice": "841369",
+"shortcut": "254",
 "descrizione": "Calciuria(Ca) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -466,10 +487,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841369"
+"url": "/p/254"
 },
 {
 "codice": "841371",
+"shortcut": "255",
 "descrizione": "Fosfaturia  (P) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -488,10 +510,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841371"
+"url": "/p/255"
 },
 {
 "codice": "841372",
+"shortcut": "256",
 "descrizione": "Magnesio urinario (Mg) (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -510,10 +533,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841372"
+"url": "/p/256"
 },
 {
 "codice": "841376",
+"shortcut": "2590",
 "descrizione": "Microalbuminuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -532,10 +556,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841376"
+"url": "/p/2590"
 },
 {
 "codice": "841383",
+"shortcut": "262",
 "descrizione": "Proteinuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -554,10 +579,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841383"
+"url": "/p/262"
 },
 {
 "codice": "841384",
+"shortcut": "2622",
 "descrizione": "Proteinuria (Urine 24 h) II Campione",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -576,10 +602,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841384"
+"url": "/p/2622"
 },
 {
 "codice": "841414",
+"shortcut": "311",
 "descrizione": "Amilasuria (Urine 24 h)",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -598,10 +625,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841414"
+"url": "/p/311"
 },
 {
 "codice": "841439",
+"shortcut": "365",
 "descrizione": "Cistina Urinaria 24h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -620,10 +648,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841439"
+"url": "/p/365"
 },
 {
 "codice": "841445",
+"shortcut": "400",
 "descrizione": "Esame Urine",
 "preparazione_raw": "TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf",
 "preparazioni": [
@@ -642,10 +671,11 @@
 "file": "stampabili/TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf"
 }
 ],
-"url": "/p/841445"
+"url": "/p/400"
 },
 {
 "codice": "841446",
+"shortcut": "401",
 "descrizione": "Esame Urine Completo II Camp.",
 "preparazione_raw": "TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf",
 "preparazioni": [
@@ -664,10 +694,11 @@
 "file": "stampabili/TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf"
 }
 ],
-"url": "/p/841446"
+"url": "/p/401"
 },
 {
 "codice": "841447",
+"shortcut": "402",
 "descrizione": "Esame Urine Completo III Camp.",
 "preparazione_raw": "TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf",
 "preparazioni": [
@@ -686,10 +717,11 @@
 "file": "stampabili/TD-SGI-INF001_0b_Raccolta per Esame Urine Completo.pdf"
 }
 ],
-"url": "/p/841447"
+"url": "/p/402"
 },
 {
 "codice": "841472",
+"shortcut": "514",
 "descrizione": "Esame Feci x Parassiti",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -708,10 +740,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/841472"
+"url": "/p/514"
 },
 {
 "codice": "841473",
+"shortcut": "5141",
 "descrizione": "Esame Feci x Parassiti II Campione",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -730,10 +763,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/841473"
+"url": "/p/5141"
 },
 {
 "codice": "841474",
+"shortcut": "5142",
 "descrizione": "Esame Feci x Parassiti III Campione",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -752,10 +786,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/841474"
+"url": "/p/5142"
 },
 {
 "codice": "841482",
+"shortcut": "518",
 "descrizione": "Scotch Test",
 "preparazione_raw": "TD-SGI-INF001_0r_Scotch Test.pdf",
 "preparazioni": [
@@ -774,10 +809,11 @@
 "file": "stampabili/TD-SGI-INF001_0r_Scotch Test.pdf"
 }
 ],
-"url": "/p/841482"
+"url": "/p/518"
 },
 {
 "codice": "841483",
+"shortcut": "5182",
 "descrizione": "Scotch Test II campione",
 "preparazione_raw": "TD-SGI-INF001_0r_Scotch Test.pdf",
 "preparazioni": [
@@ -796,10 +832,11 @@
 "file": "stampabili/TD-SGI-INF001_0r_Scotch Test.pdf"
 }
 ],
-"url": "/p/841483"
+"url": "/p/5182"
 },
 {
 "codice": "841484",
+"shortcut": "5183",
 "descrizione": "Scotch Test III campione",
 "preparazione_raw": "TD-SGI-INF001_0r_Scotch Test.pdf",
 "preparazioni": [
@@ -818,10 +855,11 @@
 "file": "stampabili/TD-SGI-INF001_0r_Scotch Test.pdf"
 }
 ],
-"url": "/p/841484"
+"url": "/p/5183"
 },
 {
 "codice": "841485",
+"shortcut": "520",
 "descrizione": "Elastasi 1 Pancreatica Fecale",
 "preparazione_raw": "TD-SGI-INF001_0s_Elastasi Fecale.pdf",
 "preparazioni": [
@@ -840,10 +878,11 @@
 "file": "stampabili/TD-SGI-INF001_0s_Elastasi Fecale.pdf"
 }
 ],
-"url": "/p/841485"
+"url": "/p/520"
 },
 {
 "codice": "841674",
+"shortcut": "625",
 "descrizione": "Aldosterone 24h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -862,10 +901,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841674"
+"url": "/p/625"
 },
 {
 "codice": "841677",
+"shortcut": "627",
 "descrizione": "17 Chetosteroidi urinari",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -884,10 +924,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841677"
+"url": "/p/627"
 },
 {
 "codice": "841678",
+"shortcut": "629",
 "descrizione": "Acido Vanilmandelico urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -906,10 +947,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841678"
+"url": "/p/629"
 },
 {
 "codice": "841679",
+"shortcut": "630",
 "descrizione": "Serotonina urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -928,10 +970,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841679"
+"url": "/p/630"
 },
 {
 "codice": "841684",
+"shortcut": "631",
 "descrizione": "Acido 5 OH Indolacetico urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -950,10 +993,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841684"
+"url": "/p/631"
 },
 {
 "codice": "841685",
+"shortcut": "632",
 "descrizione": "Idrossiprolina urine 24 H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -972,10 +1016,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841685"
+"url": "/p/632"
 },
 {
 "codice": "841690",
+"shortcut": "6330",
 "descrizione": "Acido Omovanillico urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -994,10 +1039,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841690"
+"url": "/p/6330"
 },
 {
 "codice": "841708",
+"shortcut": "6352",
 "descrizione": "Ossalati urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1016,10 +1062,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/841708"
+"url": "/p/6352"
 },
 {
 "codice": "841744",
+"shortcut": "6533",
 "descrizione": "Curva Insulinemica",
 "preparazione_raw": "TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf",
 "preparazioni": [
@@ -1038,10 +1085,11 @@
 "file": "stampabili/TD-SGI-INF001_0a_Curva Glicemica e Curva Glicemica in Gravidanza.pdf"
 }
 ],
-"url": "/p/841744"
+"url": "/p/6533"
 },
 {
 "codice": "842206",
+"shortcut": "702",
 "descrizione": "Piombo Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h",
 "preparazioni": [
@@ -1060,10 +1108,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842206"
+"url": "/p/702"
 },
 {
 "codice": "842210",
+"shortcut": "7051",
 "descrizione": "Porfobilinogeno urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h",
 "preparazioni": [
@@ -1082,10 +1131,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842210"
+"url": "/p/7051"
 },
 {
 "codice": "842211",
+"shortcut": "7052",
 "descrizione": "Porfirine totali urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h",
 "preparazioni": [
@@ -1104,10 +1154,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842211"
+"url": "/p/7052"
 },
 {
 "codice": "842212",
+"shortcut": "7053",
 "descrizione": "Coproporfirine urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h",
 "preparazioni": [
@@ -1126,10 +1177,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842212"
+"url": "/p/7053"
 },
 {
 "codice": "842229",
+"shortcut": "7132",
 "descrizione": "Cadmio Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1148,10 +1200,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842229"
+"url": "/p/7132"
 },
 {
 "codice": "842231",
+"shortcut": "7141",
 "descrizione": "Cromo Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1170,10 +1223,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842231"
+"url": "/p/7141"
 },
 {
 "codice": "842236",
+"shortcut": "7151",
 "descrizione": "Nichel Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1192,10 +1246,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842236"
+"url": "/p/7151"
 },
 {
 "codice": "842251",
+"shortcut": "7192",
 "descrizione": "Alluminio Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1214,10 +1269,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842251"
+"url": "/p/7192"
 },
 {
 "codice": "842261",
+"shortcut": "7251",
 "descrizione": "Mercurio Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1236,10 +1292,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842261"
+"url": "/p/7251"
 },
 {
 "codice": "842267",
+"shortcut": "7263",
 "descrizione": "Cobalto Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1258,10 +1315,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842267"
+"url": "/p/7263"
 },
 {
 "codice": "842293",
+"shortcut": "7433",
 "descrizione": "Arsenico Urine 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1280,10 +1338,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842293"
+"url": "/p/7433"
 },
 {
 "codice": "842301",
+"shortcut": "7491",
 "descrizione": "Citraturia delle 24 ore",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1302,10 +1361,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842301"
+"url": "/p/7491"
 },
 {
 "codice": "842327",
+"shortcut": "785",
 "descrizione": "Metanefrina Urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1324,10 +1384,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842327"
+"url": "/p/785"
 },
 {
 "codice": "842328",
+"shortcut": "786",
 "descrizione": "Normetanefrina urine 24 H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1346,10 +1407,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842328"
+"url": "/p/786"
 },
 {
 "codice": "842329",
+"shortcut": "787",
 "descrizione": "Catecolamine frazionate urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1368,10 +1430,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842329"
+"url": "/p/787"
 },
 {
 "codice": "842331",
+"shortcut": "789",
 "descrizione": "Dopamina urine 24H",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1390,10 +1453,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842331"
+"url": "/p/789"
 },
 {
 "codice": "842345",
+"shortcut": "79972",
 "descrizione": "Iodio Urinario 24 h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1412,10 +1476,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842345"
+"url": "/p/79972"
 },
 {
 "codice": "842369",
+"shortcut": "8994",
 "descrizione": "Rame Urine 24h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1434,10 +1499,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842369"
+"url": "/p/8994"
 },
 {
 "codice": "842370",
+"shortcut": "8995",
 "descrizione": "Ferro Urine 24h",
 "preparazione_raw": "TD-SGI-INF001_0d_Raccolta Urine 24h.pdf",
 "preparazioni": [
@@ -1456,10 +1522,11 @@
 "file": "stampabili/TD-SGI-INF001_0d_Raccolta Urine 24h.pdf"
 }
 ],
-"url": "/p/842370"
+"url": "/p/8995"
 },
 {
 "codice": "857808",
+"shortcut": "ALLE001",
 "descrizione": "PROVE ALLERGICHE PER ANESTETICI",
 "preparazione_raw": "TD-SGI-INF032_00_Prove_Allergiche_Anestetici.pdf",
 "preparazioni": [
@@ -1478,10 +1545,11 @@
 "file": "stampabili/TD-SGI-INF032_00_Prove_Allergiche_Anestetici.pdf"
 }
 ],
-"url": "/p/857808"
+"url": "/p/ALLE001"
 },
 {
 "codice": "857813",
+"shortcut": "ALLE002",
 "descrizione": "PROVE ALLERGICHE PATCH TEST",
 "preparazione_raw": "TD-SGI-INF033_00_Prove_Allergiche_Patch_Test.pdf",
 "preparazioni": [
@@ -1500,10 +1568,11 @@
 "file": "stampabili/TD-SGI-INF033_00_Prove_Allergiche_Patch_Test.pdf"
 }
 ],
-"url": "/p/857813"
+"url": "/p/ALLE002"
 },
 {
 "codice": "857816",
+"shortcut": "ALLE003",
 "descrizione": "PROVE ALLERGICHE PRICK TEST",
 "preparazione_raw": "TD-SGI-INF034_00_Prove_Allergiche_Prick_Test.pdf",
 "preparazioni": [
@@ -1522,10 +1591,11 @@
 "file": "stampabili/TD-SGI-INF034_00_Prove_Allergiche_Prick_Test.pdf"
 }
 ],
-"url": "/p/857816"
+"url": "/p/ALLE003"
 },
 {
 "codice": "842383",
+"shortcut": "B500",
 "descrizione": "Esame colturale urine con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf",
 "preparazioni": [
@@ -1544,10 +1614,11 @@
 "file": "stampabili/TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf"
 }
 ],
-"url": "/p/842383"
+"url": "/p/B500"
 },
 {
 "codice": "842384",
+"shortcut": "B5002",
 "descrizione": "Esame colturale urine II Campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf",
 "preparazioni": [
@@ -1566,10 +1637,11 @@
 "file": "stampabili/TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf"
 }
 ],
-"url": "/p/842384"
+"url": "/p/B5002"
 },
 {
 "codice": "842385",
+"shortcut": "B5003",
 "descrizione": "Esame colturale urine III Campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf",
 "preparazioni": [
@@ -1588,10 +1660,11 @@
 "file": "stampabili/TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf"
 }
 ],
-"url": "/p/842385"
+"url": "/p/B5003"
 },
 {
 "codice": "842386",
+"shortcut": "B501",
 "descrizione": "Esame colturale delle feci (Coprocoltura) con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -1610,10 +1683,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/842386"
+"url": "/p/B501"
 },
 {
 "codice": "842387",
+"shortcut": "B5012",
 "descrizione": "Esame colturale delle feci (Coprocoltura) II Campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -1632,10 +1706,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/842387"
+"url": "/p/B5012"
 },
 {
 "codice": "842388",
+"shortcut": "B5013",
 "descrizione": "Esame colturale delle feci (Coprocoltura) III Campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf",
 "preparazioni": [
@@ -1654,10 +1729,11 @@
 "file": "stampabili/TD-SGI-INF001_0q_Raccolta Feci per Coprocoltura, Ricerca Parassiti, Esame Completo.pdf"
 }
 ],
-"url": "/p/842388"
+"url": "/p/B5013"
 },
 {
 "codice": "842404",
+"shortcut": "B507",
 "descrizione": "Esame colturale espettorato con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf",
 "preparazioni": [
@@ -1676,10 +1752,11 @@
 "file": "stampabili/TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf"
 }
 ],
-"url": "/p/842404"
+"url": "/p/B507"
 },
 {
 "codice": "842406",
+"shortcut": "B50701",
 "descrizione": "Esame colturale espettorato II campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf",
 "preparazioni": [
@@ -1698,10 +1775,11 @@
 "file": "stampabili/TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf"
 }
 ],
-"url": "/p/842406"
+"url": "/p/B50701"
 },
 {
 "codice": "842407",
+"shortcut": "B50702",
 "descrizione": "Esame colturale espettorato III campione con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf",
 "preparazioni": [
@@ -1720,10 +1798,11 @@
 "file": "stampabili/TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf"
 }
 ],
-"url": "/p/842407"
+"url": "/p/B50702"
 },
 {
 "codice": "842410",
+"shortcut": "B507M",
 "descrizione": "Esame microscopico Espettorato",
 "preparazione_raw": "TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf",
 "preparazioni": [
@@ -1742,10 +1821,11 @@
 "file": "stampabili/TD-SGI-INF001_0h_Raccolta Espettorato per Esame Colturale.pdf"
 }
 ],
-"url": "/p/842410"
+"url": "/p/B507M"
 },
 {
 "codice": "842414",
+"shortcut": "B5100U",
 "descrizione": "Esame microscopico Tampone Uretrale",
 "preparazione_raw": "TD-SGI-INF001_0g_Tampone Uretrale.pdf",
 "preparazioni": [
@@ -1764,10 +1844,11 @@
 "file": "stampabili/TD-SGI-INF001_0g_Tampone Uretrale.pdf"
 }
 ],
-"url": "/p/842414"
+"url": "/p/B5100U"
 },
 {
 "codice": "842428",
+"shortcut": "B533",
 "descrizione": "Esame colturale tampone uretrale con Antibiogramma",
 "preparazione_raw": "TD-SGI-INF001_0g_Tampone Uretrale.pdf",
 "preparazioni": [
@@ -1786,10 +1867,11 @@
 "file": "stampabili/TD-SGI-INF001_0g_Tampone Uretrale.pdf"
 }
 ],
-"url": "/p/842428"
+"url": "/p/B533"
 },
 {
 "codice": "842450",
+"shortcut": "B583",
 "descrizione": "Neisseria gonorrhoeae esame colturale",
 "preparazione_raw": "TD-SGI-INF001_0g_Tampone Uretrale.pdf",
 "preparazioni": [
@@ -1808,10 +1890,11 @@
 "file": "stampabili/TD-SGI-INF001_0g_Tampone Uretrale.pdf"
 }
 ],
-"url": "/p/842450"
+"url": "/p/B583"
 },
 {
 "codice": "842451",
+"shortcut": "B5831",
 "descrizione": "Neisseria gonorrhoeae esame colturale II campione",
 "preparazione_raw": "TD-SGI-INF001_0g_Tampone Uretrale.pdf",
 "preparazioni": [
@@ -1830,10 +1913,11 @@
 "file": "stampabili/TD-SGI-INF001_0g_Tampone Uretrale.pdf"
 }
 ],
-"url": "/p/842451"
+"url": "/p/B5831"
 },
 {
 "codice": "842467",
+"shortcut": "B9001",
 "descrizione": "Esame Colturale Urina I mitto",
 "preparazione_raw": "TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf",
 "preparazioni": [
@@ -1852,10 +1936,11 @@
 "file": "stampabili/TD-SGI-INF001_0c_Raccolta Urine per Urinocoltura.pdf"
 }
 ],
-"url": "/p/842467"
+"url": "/p/B9001"
 },
 {
 "codice": "842482",
+"shortcut": "BREFRU",
 "descrizione": "Breath Test Fruttosio (Lettura + Kit)",
 "preparazione_raw": "TD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -1874,10 +1959,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/842482"
+"url": "/p/BREFRU"
 },
 {
 "codice": "842483",
+"shortcut": "BREGLU",
 "descrizione": "Breath Test Glucosio (Lettura + Kit)",
 "preparazione_raw": "TD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -1896,10 +1982,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/842483"
+"url": "/p/BREGLU"
 },
 {
 "codice": "842484",
+"shortcut": "BRESOR",
 "descrizione": "Breath Test al Sorbitolo (Lettura + kit)",
 "preparazione_raw": "TD-SGI-INF001_0o_Breath Test.pdf",
 "preparazioni": [
@@ -1918,10 +2005,11 @@
 "file": "stampabili/TD-SGI-INF001_0o_Breath Test.pdf"
 }
 ],
-"url": "/p/842484"
+"url": "/p/BRESOR"
 },
 {
 "codice": "840630",
+"shortcut": "CARD002",
 "descrizione": "HOLTER CARDIACO (24 ORE)",
 "preparazione_raw": "TD-SGI-INF028_00_Holter_ECG.pdf",
 "preparazioni": [
@@ -1940,10 +2028,11 @@
 "file": "stampabili/TD-SGI-INF028_00_Holter_ECG.pdf"
 }
 ],
-"url": "/p/840630"
+"url": "/p/CARD002"
 },
 {
 "codice": "840681",
+"shortcut": "CARD003",
 "descrizione": "HOLTER CARDIACO (48 ORE)",
 "preparazione_raw": "TD-SGI-INF028_00_Holter_ECG.pdf",
 "preparazioni": [
@@ -1962,10 +2051,11 @@
 "file": "stampabili/TD-SGI-INF028_00_Holter_ECG.pdf"
 }
 ],
-"url": "/p/840681"
+"url": "/p/CARD003"
 },
 {
 "codice": "840531",
+"shortcut": "CARD004",
 "descrizione": "HOLTER PRESSORIO (24 H)",
 "preparazione_raw": "TD-SGI-INF065_00_Holter_Pressorio.pdf",
 "preparazioni": [
@@ -1984,10 +2074,11 @@
 "file": "stampabili/TD-SGI-INF065_00_Holter_Pressorio.pdf"
 }
 ],
-"url": "/p/840531"
+"url": "/p/CARD004"
 },
 {
 "codice": "840600",
+"shortcut": "CARD005",
 "descrizione": "TEST CARDIOVASCOLARE DA SFORZO AL CICLOERGOMETRO",
 "preparazione_raw": "TD-SGI-INF017_00_ECG_Test_Sforzo.pdf",
 "preparazioni": [
@@ -2006,10 +2097,11 @@
 "file": "stampabili/TD-SGI-INF017_00_ECG_Test_Sforzo.pdf"
 }
 ],
-"url": "/p/840600"
+"url": "/p/CARD005"
 },
 {
 "codice": "840675",
+"shortcut": "DOP015",
 "descrizione": "ECODOPPLER AORTA E ARTERIE DIGESTIVE",
 "preparazione_raw": "TD-SGI-INF018_00_Ecodoppler_Aorta_Digestive.pdf",
 "preparazioni": [
@@ -2028,10 +2120,11 @@
 "file": "stampabili/TD-SGI-INF018_00_Ecodoppler_Aorta_Digestive.pdf"
 }
 ],
-"url": "/p/840675"
+"url": "/p/DOP015"
 },
 {
 "codice": "840677",
+"shortcut": "DOP018",
 "descrizione": "ECODOPPLER AORTA, ARTERIE E VENE ILIACHE",
 "preparazione_raw": "TD-SGI-INF019_00_Ecodoppler_Aorta_Iliache.pdf",
 "preparazioni": [
@@ -2050,10 +2143,11 @@
 "file": "stampabili/TD-SGI-INF019_00_Ecodoppler_Aorta_Iliache.pdf"
 }
 ],
-"url": "/p/840677"
+"url": "/p/DOP018"
 },
 {
 "codice": "840545",
+"shortcut": "ECO001",
 "descrizione": "ECOGRAFIA ADDOME SUPERIORE",
 "preparazione_raw": "TD-SGI-INF023_00_Ecografia_Addome_Superiore.pdf",
 "preparazioni": [
@@ -2072,10 +2166,11 @@
 "file": "stampabili/TD-SGI-INF023_00_Ecografia_Addome_Superiore.pdf"
 }
 ],
-"url": "/p/840545"
+"url": "/p/ECO001"
 },
 {
 "codice": "840546",
+"shortcut": "ECO002",
 "descrizione": "ECOGRAFIA ADDOME INFERIORE",
 "preparazione_raw": "TD-SGI-INF021_00_Ecografia_Addome_Inferiore.pdf",
 "preparazioni": [
@@ -2094,10 +2189,11 @@
 "file": "stampabili/TD-SGI-INF021_00_Ecografia_Addome_Inferiore.pdf"
 }
 ],
-"url": "/p/840546"
+"url": "/p/ECO002"
 },
 {
 "codice": "840599",
+"shortcut": "ECO003",
 "descrizione": "ECOGRAFIA ADDOME COMPLETO",
 "preparazione_raw": "TD-SGI-INF020_00_Ecografia_Addome_Completo.pdf",
 "preparazioni": [
@@ -2116,10 +2212,11 @@
 "file": "stampabili/TD-SGI-INF020_00_Ecografia_Addome_Completo.pdf"
 }
 ],
-"url": "/p/840599"
+"url": "/p/ECO003"
 },
 {
 "codice": "840607",
+"shortcut": "ECO012",
 "descrizione": "ECOGRAFIA PELVICA TRANSVAGINALE",
 "preparazione_raw": "TD-SGI-INF025_00_Ecografia_Transvaginale.pdf",
 "preparazioni": [
@@ -2138,10 +2235,11 @@
 "file": "stampabili/TD-SGI-INF025_00_Ecografia_Transvaginale.pdf"
 }
 ],
-"url": "/p/840607"
+"url": "/p/ECO012"
 },
 {
 "codice": "840602",
+"shortcut": "ECO013",
 "descrizione": "ECOGRAFIA PELVICA TRANSRETTALE",
 "preparazione_raw": "TD-SGI-INF024_00_Ecografia_Transrettale.pdf",
 "preparazioni": [
@@ -2160,10 +2258,11 @@
 "file": "stampabili/TD-SGI-INF024_00_Ecografia_Transrettale.pdf"
 }
 ],
-"url": "/p/840602"
+"url": "/p/ECO013"
 },
 {
 "codice": "840966",
+"shortcut": "ECO050",
 "descrizione": "ECOGRAFIA OVARICA (MONITORAGGIO OVULAZIONE)",
 "preparazione_raw": "TD-SGI-INF022_00_Monitoraggio_Follicolare.pdf",
 "preparazioni": [
@@ -2182,10 +2281,11 @@
 "file": "stampabili/TD-SGI-INF022_00_Monitoraggio_Follicolare.pdf"
 }
 ],
-"url": "/p/840966"
+"url": "/p/ECO050"
 },
 {
 "codice": "841054",
+"shortcut": "END001",
 "descrizione": "GASTROSCOPIA SENZA SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF027_00_Gastroscopia_EGDS.pdf",
 "preparazioni": [
@@ -2204,10 +2304,11 @@
 "file": "stampabili/TD-SGI-INF027_00_Gastroscopia_EGDS.pdf"
 }
 ],
-"url": "/p/841054"
+"url": "/p/END001"
 },
 {
 "codice": "841009",
+"shortcut": "END002",
 "descrizione": "COLONSCOPIA SENZA SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -2226,10 +2327,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/841009"
+"url": "/p/END002"
 },
 {
 "codice": "841064",
+"shortcut": "END003",
 "descrizione": "GASTROSCOPIA CON SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF027_00_Gastroscopia_EGDS.pdf",
 "preparazioni": [
@@ -2248,10 +2350,11 @@
 "file": "stampabili/TD-SGI-INF027_00_Gastroscopia_EGDS.pdf"
 }
 ],
-"url": "/p/841064"
+"url": "/p/END003"
 },
 {
 "codice": "841065",
+"shortcut": "END004",
 "descrizione": "COLONSCOPIA CON SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -2270,10 +2373,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/841065"
+"url": "/p/END004"
 },
 {
 "codice": "841066",
+"shortcut": "END005",
 "descrizione": "RETTOSIGMOIDOSCOPIA",
 "preparazione_raw": "TD-SGI-INF037_00_Rettosigmoidoscopia.pdf",
 "preparazioni": [
@@ -2292,10 +2396,11 @@
 "file": "stampabili/TD-SGI-INF037_00_Rettosigmoidoscopia.pdf"
 }
 ],
-"url": "/p/841066"
+"url": "/p/END005"
 },
 {
 "codice": "841067",
+"shortcut": "END006",
 "descrizione": "RETTOSIGMOIDOSCOPIA CON SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF037_00_Rettosigmoidoscopia.pdf",
 "preparazioni": [
@@ -2314,10 +2419,11 @@
 "file": "stampabili/TD-SGI-INF037_00_Rettosigmoidoscopia.pdf"
 }
 ],
-"url": "/p/841067"
+"url": "/p/END006"
 },
 {
 "codice": "857326",
+"shortcut": "GIN006",
 "descrizione": "COLPOSCOPIA",
 "preparazione_raw": "TD-SGI-INF062_00_Colposcopia.pdf",
 "preparazioni": [
@@ -2336,10 +2442,11 @@
 "file": "stampabili/TD-SGI-INF062_00_Colposcopia.pdf"
 }
 ],
-"url": "/p/857326"
+"url": "/p/GIN006"
 },
 {
 "codice": "842769",
+"shortcut": "IN10266",
 "descrizione": "CERVICE UTERINA - NEWPAP - DNA: MONOSTRATO + HPV HIGH RISK",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2358,10 +2465,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842769"
+"url": "/p/IN10266"
 },
 {
 "codice": "842770",
+"shortcut": "IN10269",
 "descrizione": "CERVICE UTERINA - PAP TEST SINGOLO VETRINO",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2380,10 +2488,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842770"
+"url": "/p/IN10269"
 },
 {
 "codice": "842771",
+"shortcut": "IN10269U",
 "descrizione": "CERVICE UTERINA - PAP TEST SINGOLO VETRINO URGENTE",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2402,10 +2511,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842771"
+"url": "/p/IN10269U"
 },
 {
 "codice": "842772",
+"shortcut": "IN10270",
 "descrizione": "CERVICE UTERINA - PAP TEST MONOSTRATO",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2424,10 +2534,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842772"
+"url": "/p/IN10270"
 },
 {
 "codice": "842773",
+"shortcut": "IN10270C",
 "descrizione": "CERVICE UTERINA - PAP TEST MONOSTRATO A CALDO",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2446,10 +2557,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842773"
+"url": "/p/IN10270C"
 },
 {
 "codice": "842774",
+"shortcut": "IN10270U",
 "descrizione": "CERVICE UTERINA - PAP TEST MONOSTRATO URGENTE",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2468,10 +2580,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842774"
+"url": "/p/IN10270U"
 },
 {
 "codice": "842775",
+"shortcut": "IN10271",
 "descrizione": "VAGINA - PAP TEST MONOSTRATO",
 "preparazione_raw": "TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf",
 "preparazioni": [
@@ -2490,10 +2603,11 @@
 "file": "stampabili/TD-SGI-INF001_0l_Prelievo di Materiale Cervico - Vaginale per esecuzione Pap Test.pdf"
 }
 ],
-"url": "/p/842775"
+"url": "/p/IN10271"
 },
 {
 "codice": "842776",
+"shortcut": "IN10272",
 "descrizione": "VAGINA - PAP TEST VAGINALE  (vetrino)",
 "preparazione_raw": "TD-SGI-INF001_0e_Tampone Vaginale e Vagino-Rettale.pdf",
 "preparazioni": [
@@ -2512,10 +2626,11 @@
 "file": "stampabili/TD-SGI-INF001_0e_Tampone Vaginale e Vagino-Rettale.pdf"
 }
 ],
-"url": "/p/842776"
+"url": "/p/IN10272"
 },
 {
 "codice": "842777",
+"shortcut": "IN10278",
 "descrizione": "ES. CITOLOGICO URINE PER RICERCA CELLULE NEOPLASTICHE 1° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf",
 "preparazioni": [
@@ -2534,10 +2649,11 @@
 "file": "stampabili/TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842777"
+"url": "/p/IN10278"
 },
 {
 "codice": "842778",
+"shortcut": "IN10279",
 "descrizione": "ES. CITOLOGICO URINE PER RICERCA CELLULE NEOPLASTICHE 2° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf",
 "preparazioni": [
@@ -2556,10 +2672,11 @@
 "file": "stampabili/TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842778"
+"url": "/p/IN10279"
 },
 {
 "codice": "842779",
+"shortcut": "IN10280",
 "descrizione": "ES. CITOLOGICO URINE PER RICERCA CELLULE NEOPLASTICHE 3° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf",
 "preparazioni": [
@@ -2578,10 +2695,11 @@
 "file": "stampabili/TD-SGI-INF001_0n_Esame Citologico Urinario su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842779"
+"url": "/p/IN10280"
 },
 {
 "codice": "842780",
+"shortcut": "IN10281",
 "descrizione": "ES. CITOLOGICO ESPETTORATO PER RICERCA CELLULE NEOPLASTICHE 1° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf",
 "preparazioni": [
@@ -2600,10 +2718,11 @@
 "file": "stampabili/TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842780"
+"url": "/p/IN10281"
 },
 {
 "codice": "842781",
+"shortcut": "IN10282",
 "descrizione": "ES. CITOLOGICO ESPETTORATO PER RICERCA CELLULE NEOPLASTICHE 2° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf",
 "preparazioni": [
@@ -2622,10 +2741,11 @@
 "file": "stampabili/TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842781"
+"url": "/p/IN10282"
 },
 {
 "codice": "842782",
+"shortcut": "IN10283",
 "descrizione": "ES. CITOLOGICO ESPETTORATO PER RICERCA CELLULE NEOPLASTICHE 3° CAMP",
 "preparazione_raw": "TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf",
 "preparazioni": [
@@ -2644,10 +2764,11 @@
 "file": "stampabili/TD-SGI-INF001_0i_Raccolta Espettorato per Esame Citologico su Tre Campioni.pdf"
 }
 ],
-"url": "/p/842782"
+"url": "/p/IN10283"
 },
 {
 "codice": "840424",
+"shortcut": "MAM001",
 "descrizione": "RX MAMMOGRAFIA MONOLATERALE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2666,10 +2787,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840424"
+"url": "/p/MAM001"
 },
 {
 "codice": "840425",
+"shortcut": "MAM002",
 "descrizione": "RX MAMMOGRAFIA MONOLATERALE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2688,10 +2810,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840425"
+"url": "/p/MAM002"
 },
 {
 "codice": "840604",
+"shortcut": "MAM003",
 "descrizione": "RX MAMMOGRAFIA BILATERALE CON TOMOSINTESI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2710,10 +2833,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840604"
+"url": "/p/MAM003"
 },
 {
 "codice": "857352",
+"shortcut": "MAM004",
 "descrizione": "RX MAMMOGRAFIA CON MDC",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf\nTD-SGI-INF047_00_Mammografia_MdC.pdf",
 "preparazioni": [
@@ -2738,10 +2862,11 @@
 "file": "stampabili/TD-SGI-INF047_00_Mammografia_MdC.pdf"
 }
 ],
-"url": "/p/857352"
+"url": "/p/MAM004"
 },
 {
 "codice": "840514",
+"shortcut": "MOC001",
 "descrizione": "DENSITOMETRIA OSSEA LOMBARE - D.E.X.A.",
 "preparazione_raw": "TD-SGI-INF029_00_MOC.pdf\nTD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2766,10 +2891,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840514"
+"url": "/p/MOC001"
 },
 {
 "codice": "840515",
+"shortcut": "MOC002",
 "descrizione": "DENSITOMETRIA OSSEA FEMORALE - D.E.X.A.",
 "preparazione_raw": "TD-SGI-INF029_00_MOC.pdf\nTD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2794,10 +2920,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840515"
+"url": "/p/MOC002"
 },
 {
 "codice": "840644",
+"shortcut": "MOC003",
 "descrizione": "DENSITOMETRIA OSSEA  FEMORALE E LOMBARE",
 "preparazione_raw": "TD-SGI-INF029_00_MOC.pdf\nTD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2822,10 +2949,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840644"
+"url": "/p/MOC003"
 },
 {
 "codice": "840667",
+"shortcut": "MOC004",
 "descrizione": "DENSITOMETRIA OSSEA TOTAL BODY - DEXA",
 "preparazione_raw": "TD-SGI-INF029_00_MOC.pdf\nTD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2850,10 +2978,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840667"
+"url": "/p/MOC004"
 },
 {
 "codice": "840536",
+"shortcut": "MOC005",
 "descrizione": "DENSITOMETRIA OSSEA ULTRADISTALE - DEXA",
 "preparazione_raw": "TD-SGI-INF029_00_MOC.pdf\nTD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -2878,10 +3007,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840536"
+"url": "/p/MOC005"
 },
 {
 "codice": "840668",
+"shortcut": "MSPE009",
 "descrizione": "VISITA OCULISTICA",
 "preparazione_raw": "TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf",
 "preparazioni": [
@@ -2900,10 +3030,11 @@
 "file": "stampabili/TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf"
 }
 ],
-"url": "/p/840668"
+"url": "/p/MSPE009"
 },
 {
 "codice": "840544",
+"shortcut": "MSPE010",
 "descrizione": "VISITA DI CONTROLLO OCULISTICA",
 "preparazione_raw": "TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf",
 "preparazioni": [
@@ -2922,10 +3053,11 @@
 "file": "stampabili/TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf"
 }
 ],
-"url": "/p/840544"
+"url": "/p/MSPE010"
 },
 {
 "codice": "840864",
+"shortcut": "MSPE017",
 "descrizione": "VISITA ALLERGOLOGICA",
 "preparazione_raw": "TD-SGI-INF058_00_Visita_Allergologica.pdf",
 "preparazioni": [
@@ -2944,10 +3076,11 @@
 "file": "stampabili/TD-SGI-INF058_00_Visita_Allergologica.pdf"
 }
 ],
-"url": "/p/840864"
+"url": "/p/MSPE017"
 },
 {
 "codice": "840863",
+"shortcut": "MSPE018",
 "descrizione": "VISITA DI CONTROLLO ALLERGOLOGICA",
 "preparazione_raw": "TD-SGI-INF058_00_Visita_Allergologica.pdf",
 "preparazioni": [
@@ -2966,10 +3099,11 @@
 "file": "stampabili/TD-SGI-INF058_00_Visita_Allergologica.pdf"
 }
 ],
-"url": "/p/840863"
+"url": "/p/MSPE018"
 },
 {
 "codice": "840693",
+"shortcut": "MSPE045",
 "descrizione": "VISITA EMATOLOGICA",
 "preparazione_raw": "TD-SGI-INF059_00_Visita_Ematologica.pdf",
 "preparazioni": [
@@ -2988,10 +3122,11 @@
 "file": "stampabili/TD-SGI-INF059_00_Visita_Ematologica.pdf"
 }
 ],
-"url": "/p/840693"
+"url": "/p/MSPE045"
 },
 {
 "codice": "840616",
+"shortcut": "MSPE046",
 "descrizione": "VISITA DI CONTROLLO EMATOLOGICA",
 "preparazione_raw": "TD-SGI-INF059_00_Visita_Ematologica.pdf",
 "preparazioni": [
@@ -3010,10 +3145,11 @@
 "file": "stampabili/TD-SGI-INF059_00_Visita_Ematologica.pdf"
 }
 ],
-"url": "/p/840616"
+"url": "/p/MSPE046"
 },
 {
 "codice": "840928",
+"shortcut": "MSPO001",
 "descrizione": "VISITA MEDICO SPORTIVA AGONISTICA PER ATLETI PROFESSIONISTI",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3032,10 +3168,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840928"
+"url": "/p/MSPO001"
 },
 {
 "codice": "840847",
+"shortcut": "MSPO002",
 "descrizione": "VISITA MEDICO SPORTIVA AGONISTICA TABELLA A (per sport tipo golf, motocross, bocce, ecc.)",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3054,10 +3191,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840847"
+"url": "/p/MSPO002"
 },
 {
 "codice": "840848",
+"shortcut": "MSPO003",
 "descrizione": "VISITA MEDICO SPORTIVA AGONISTICA UNDER 40 - TABELLA B (per sport tipo calcio, ciclismo, pallacanestro, pallavolo, ecc.)",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3076,10 +3214,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840848"
+"url": "/p/MSPO003"
 },
 {
 "codice": "840849",
+"shortcut": "MSPO004",
 "descrizione": "VISITA MEDICO SPORTIVA AGONISTICA OVER 40 - TABELLA B (per sport tipo calcio, ciclismo, pallacanestro, pallavolo, ecc.)",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3098,10 +3237,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840849"
+"url": "/p/MSPO004"
 },
 {
 "codice": "840844",
+"shortcut": "MSPO005",
 "descrizione": "VISITA MEDICO SPORTIVA NON AGONISTICA MINORI DI 18 ANNI",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3120,10 +3260,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840844"
+"url": "/p/MSPO005"
 },
 {
 "codice": "840845",
+"shortcut": "MSPO006",
 "descrizione": "VISITA MEDICA SPORTIVA NON AGONISTICA (18-40 ANNI)",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3142,10 +3283,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840845"
+"url": "/p/MSPO006"
 },
 {
 "codice": "840846",
+"shortcut": "MSPO007",
 "descrizione": "VISITA MEDICA SPORTIVA NON AGONISTICA OVER 40 ANNI",
 "preparazione_raw": "TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf",
 "preparazioni": [
@@ -3164,10 +3306,11 @@
 "file": "stampabili/TD-SGI-INF013_00_Preparazione_Visita_MDS.pdf"
 }
 ],
-"url": "/p/840846"
+"url": "/p/MSPO007"
 },
 {
 "codice": "840646",
+"shortcut": "OCU001",
 "descrizione": "CAMPO VISIVO COMPUTERIZZATO",
 "preparazione_raw": "TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf",
 "preparazioni": [
@@ -3186,10 +3329,11 @@
 "file": "stampabili/TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf"
 }
 ],
-"url": "/p/840646"
+"url": "/p/OCU001"
 },
 {
 "codice": "840651",
+"shortcut": "OCU002",
 "descrizione": "OCT - TOMOGRAFIA OTTICA COMPUTERIZZATA",
 "preparazione_raw": "TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf",
 "preparazioni": [
@@ -3208,10 +3352,11 @@
 "file": "stampabili/TD-SGI-INF060_00_Visita_Oculistica_OCT.pdf"
 }
 ],
-"url": "/p/840651"
+"url": "/p/OCU002"
 },
 {
 "codice": "840703",
+"shortcut": "OTO001",
 "descrizione": "VISITA ORL + AUDIOLOGICA",
 "preparazione_raw": "TD-SGI-INF035_00_Perizia_Audiovestibolare.pdf",
 "preparazioni": [
@@ -3230,10 +3375,11 @@
 "file": "stampabili/TD-SGI-INF035_00_Perizia_Audiovestibolare.pdf"
 }
 ],
-"url": "/p/840703"
+"url": "/p/OTO001"
 },
 {
 "codice": "840977",
+"shortcut": "PAC005",
 "descrizione": "COLONSCOPIA TOTALE IN SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -3252,10 +3398,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/840977"
+"url": "/p/PAC005"
 },
 {
 "codice": "840939",
+"shortcut": "PAC006",
 "descrizione": "COLONSCOPIA CON BIOPSIA IN SEDE UNICA IN SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -3274,10 +3421,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/840939"
+"url": "/p/PAC006"
 },
 {
 "codice": "840931",
+"shortcut": "PAC007",
 "descrizione": "COLONSCOPIA CON BIOPSIA IN SEDE MULTIPLA IN SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -3296,10 +3444,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/840931"
+"url": "/p/PAC007"
 },
 {
 "codice": "840930",
+"shortcut": "PAC008",
 "descrizione": "COLONSCOPIA CON POLIPECTOMIA IN SEDE UNICA IN SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -3318,10 +3467,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/840930"
+"url": "/p/PAC008"
 },
 {
 "codice": "840929",
+"shortcut": "PAC009",
 "descrizione": "COLONSCOPIA CON POLIPECTOMIA IN SEDE MULTIPLA IN SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF036_00_Rettocolonscopia.pdf",
 "preparazioni": [
@@ -3340,10 +3490,11 @@
 "file": "stampabili/TD-SGI-INF036_00_Rettocolonscopia.pdf"
 }
 ],
-"url": "/p/840929"
+"url": "/p/PAC009"
 },
 {
 "codice": "840776",
+"shortcut": "PAC011",
 "descrizione": "PACCHETTO SENOLOGICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3362,10 +3513,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840776"
+"url": "/p/PAC011"
 },
 {
 "codice": "840575",
+"shortcut": "PNEU001",
 "descrizione": "SPIROMETRIA SEMPLICE",
 "preparazione_raw": "TD-SGI-INF048_00_Spirometria.pdf",
 "preparazioni": [
@@ -3384,10 +3536,11 @@
 "file": "stampabili/TD-SGI-INF048_00_Spirometria.pdf"
 }
 ],
-"url": "/p/840575"
+"url": "/p/PNEU001"
 },
 {
 "codice": "840605",
+"shortcut": "PNEU002",
 "descrizione": "SPIROMETRIA GLOBALE",
 "preparazione_raw": "TD-SGI-INF048_00_Spirometria.pdf",
 "preparazioni": [
@@ -3406,10 +3559,11 @@
 "file": "stampabili/TD-SGI-INF048_00_Spirometria.pdf"
 }
 ],
-"url": "/p/840605"
+"url": "/p/PNEU002"
 },
 {
 "codice": "840650",
+"shortcut": "PNEU003",
 "descrizione": "SPIROMETRIA CON BRONCODILATAZIONE FARMACOLOGICA",
 "preparazione_raw": "TD-SGI-INF048_00_Spirometria.pdf",
 "preparazioni": [
@@ -3428,10 +3582,11 @@
 "file": "stampabili/TD-SGI-INF048_00_Spirometria.pdf"
 }
 ],
-"url": "/p/840650"
+"url": "/p/PNEU003"
 },
 {
 "codice": "840655",
+"shortcut": "PNEU004",
 "descrizione": "SPIROMETRIA CON DIFFUSIONE ALVEOLO-CAPILLARE",
 "preparazione_raw": "TD-SGI-INF049_00_Spirometria_DLCO.pdf",
 "preparazioni": [
@@ -3450,10 +3605,11 @@
 "file": "stampabili/TD-SGI-INF049_00_Spirometria_DLCO.pdf"
 }
 ],
-"url": "/p/840655"
+"url": "/p/PNEU004"
 },
 {
 "codice": "840419",
+"shortcut": "RAD001",
 "descrizione": "RX MASTOIDI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3472,10 +3628,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840419"
+"url": "/p/RAD001"
 },
 {
 "codice": "840420",
+"shortcut": "RAD002",
 "descrizione": "RX ROCCHE PETROSE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3494,10 +3651,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840420"
+"url": "/p/RAD002"
 },
 {
 "codice": "840418",
+"shortcut": "RAD003",
 "descrizione": "RX ARCATE DENTARIE SUPERIORE E INFERIORE CON OCCLUSALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3516,10 +3674,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840418"
+"url": "/p/RAD003"
 },
 {
 "codice": "840421",
+"shortcut": "RAD004",
 "descrizione": "RX FORAMI OTTICI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3538,10 +3697,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840421"
+"url": "/p/RAD004"
 },
 {
 "codice": "840414",
+"shortcut": "RAD005",
 "descrizione": "RX EMIMANDIBOLA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3560,10 +3720,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840414"
+"url": "/p/RAD005"
 },
 {
 "codice": "840415",
+"shortcut": "RAD006",
 "descrizione": "RX EMIMANDIBOLA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3582,10 +3743,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840415"
+"url": "/p/RAD006"
 },
 {
 "codice": "840454",
+"shortcut": "RAD007",
 "descrizione": "RX ORTOPANTOMOGRAFICA ARCATE DENTARIE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3604,10 +3766,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840454"
+"url": "/p/RAD007"
 },
 {
 "codice": "840395",
+"shortcut": "RAD008",
 "descrizione": "RX ORTOPANTOMOGRAFICA ARCATE DENTARIE SETTORIALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3626,10 +3789,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840395"
+"url": "/p/RAD008"
 },
 {
 "codice": "840498",
+"shortcut": "RAD009",
 "descrizione": "RX TELERADIOGRAFIA DEL CRANIO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3648,10 +3812,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840498"
+"url": "/p/RAD009"
 },
 {
 "codice": "840438",
+"shortcut": "RAD010",
 "descrizione": "RX OSSA NASALI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3670,10 +3835,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840438"
+"url": "/p/RAD010"
 },
 {
 "codice": "840439",
+"shortcut": "RAD011",
 "descrizione": "RX ARCATA ZIGOMATICA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3692,10 +3858,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840439"
+"url": "/p/RAD011"
 },
 {
 "codice": "840440",
+"shortcut": "RAD012",
 "descrizione": "RX ARCATA ZIGOMATICA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3714,10 +3881,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840440"
+"url": "/p/RAD012"
 },
 {
 "codice": "840441",
+"shortcut": "RAD013",
 "descrizione": "RX ORBITA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3736,10 +3904,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840441"
+"url": "/p/RAD013"
 },
 {
 "codice": "840442",
+"shortcut": "RAD014",
 "descrizione": "RX ORBITA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3758,10 +3927,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840442"
+"url": "/p/RAD014"
 },
 {
 "codice": "840407",
+"shortcut": "RAD015",
 "descrizione": "RX COLONNA CERVICALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3780,10 +3950,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840407"
+"url": "/p/RAD015"
 },
 {
 "codice": "840409",
+"shortcut": "RAD016",
 "descrizione": "RX COLONNA DORSALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3802,10 +3973,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840409"
+"url": "/p/RAD016"
 },
 {
 "codice": "840410",
+"shortcut": "RAD017",
 "descrizione": "RX COLONNA LOMBOSACRALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3824,10 +3996,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840410"
+"url": "/p/RAD017"
 },
 {
 "codice": "840411",
+"shortcut": "RAD018",
 "descrizione": "RX COLONNA SACROCOCCIGEA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3846,10 +4019,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840411"
+"url": "/p/RAD018"
 },
 {
 "codice": "840711",
+"shortcut": "RAD019",
 "descrizione": "RX COLONNA VERTEBRALE COMPLETA E BACINO SOTTO CARICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3868,10 +4042,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840711"
+"url": "/p/RAD019"
 },
 {
 "codice": "840458",
+"shortcut": "RAD020",
 "descrizione": "RX COLONNA CERVICALE CON PROIEZIONI OBLIQUE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3890,10 +4065,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840458"
+"url": "/p/RAD020"
 },
 {
 "codice": "840459",
+"shortcut": "RAD021",
 "descrizione": "RX STUDIO DINAMICO DELLA COLONNA CERVICALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3912,10 +4088,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840459"
+"url": "/p/RAD021"
 },
 {
 "codice": "840478",
+"shortcut": "RAD022",
 "descrizione": "RX STUDIO DINAMICO DELLA COLONNA DORSALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3934,10 +4111,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840478"
+"url": "/p/RAD022"
 },
 {
 "codice": "840479",
+"shortcut": "RAD023",
 "descrizione": "RX STUDIO DINAMICO DELLA COLONNA LOMBOSACRALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3956,10 +4134,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840479"
+"url": "/p/RAD023"
 },
 {
 "codice": "840455",
+"shortcut": "RAD024",
 "descrizione": "RX SCHELETRO COSTALE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -3978,10 +4157,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840455"
+"url": "/p/RAD024"
 },
 {
 "codice": "840456",
+"shortcut": "RAD025",
 "descrizione": "RX SCHELETRO COSTALE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4000,10 +4180,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840456"
+"url": "/p/RAD025"
 },
 {
 "codice": "840642",
+"shortcut": "RAD026",
 "descrizione": "RX SCHELETRO COSTALE BILATERALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4022,10 +4203,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840642"
+"url": "/p/RAD026"
 },
 {
 "codice": "840457",
+"shortcut": "RAD027",
 "descrizione": "RX STERNO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4044,10 +4226,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840457"
+"url": "/p/RAD027"
 },
 {
 "codice": "840444",
+"shortcut": "RAD028",
 "descrizione": "RX CLAVICOLA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4066,10 +4249,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840444"
+"url": "/p/RAD028"
 },
 {
 "codice": "840445",
+"shortcut": "RAD029",
 "descrizione": "RX CLAVICOLA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4088,10 +4272,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840445"
+"url": "/p/RAD029"
 },
 {
 "codice": "840460",
+"shortcut": "RAD030",
 "descrizione": "RX STRETTO TORACICO SUPERIORE - STUDIO DELLA CLAVICOLA E DELL'ARTICOLAZIONE STERNOCLAVEARE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4110,10 +4295,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840460"
+"url": "/p/RAD030"
 },
 {
 "codice": "840461",
+"shortcut": "RAD031",
 "descrizione": "RX SCAPOLA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4132,10 +4318,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840461"
+"url": "/p/RAD031"
 },
 {
 "codice": "840462",
+"shortcut": "RAD032",
 "descrizione": "RX SCAPOLA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4154,10 +4341,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840462"
+"url": "/p/RAD032"
 },
 {
 "codice": "840463",
+"shortcut": "RAD033",
 "descrizione": "RX SPALLA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4176,10 +4364,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840463"
+"url": "/p/RAD033"
 },
 {
 "codice": "840464",
+"shortcut": "RAD034",
 "descrizione": "RX SPALLA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4198,10 +4387,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840464"
+"url": "/p/RAD034"
 },
 {
 "codice": "840465",
+"shortcut": "RAD035",
 "descrizione": "RX BRACCIO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4220,10 +4410,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840465"
+"url": "/p/RAD035"
 },
 {
 "codice": "840466",
+"shortcut": "RAD036",
 "descrizione": "RX BRACCIO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4242,10 +4433,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840466"
+"url": "/p/RAD036"
 },
 {
 "codice": "840488",
+"shortcut": "RAD037",
 "descrizione": "RX GOMITO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4264,10 +4456,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840488"
+"url": "/p/RAD037"
 },
 {
 "codice": "840416",
+"shortcut": "RAD038",
 "descrizione": "RX ARTICOLAZIONE TEMPOROMANDIBOLARE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4286,10 +4479,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840416"
+"url": "/p/RAD038"
 },
 {
 "codice": "840417",
+"shortcut": "RAD039",
 "descrizione": "RX ARTICOLAZIONE TEMPOROMANDIBOLARE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4308,10 +4502,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840417"
+"url": "/p/RAD039"
 },
 {
 "codice": "840426",
+"shortcut": "RAD040",
 "descrizione": "RX STRATIGRAFIA ARTICOLAZIONE TEMPOROMANDIBOLARE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4330,10 +4525,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840426"
+"url": "/p/RAD040"
 },
 {
 "codice": "840427",
+"shortcut": "RAD041",
 "descrizione": "RX STRATIGRAFIA ARTICOLAZIONE TEMPOROMANDIBOLARE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4352,10 +4548,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840427"
+"url": "/p/RAD041"
 },
 {
 "codice": "840601",
+"shortcut": "RAD042",
 "descrizione": "RX STRATIGRAFIA ARTICOLAZIONE TEMPOROMANDIBOLARE BILATERALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4374,10 +4571,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840601"
+"url": "/p/RAD042"
 },
 {
 "codice": "840484",
+"shortcut": "RAD043",
 "descrizione": "RX DEL TORACE (2P)",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4396,10 +4594,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840484"
+"url": "/p/RAD043"
 },
 {
 "codice": "840518",
+"shortcut": "RAD044",
 "descrizione": "RX STUDIO ETA' OSSEA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4418,10 +4617,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840518"
+"url": "/p/RAD044"
 },
 {
 "codice": "840485",
+"shortcut": "RAD045",
 "descrizione": "RX TESSUTI MOLLI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4440,10 +4640,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840485"
+"url": "/p/RAD045"
 },
 {
 "codice": "840499",
+"shortcut": "RAD046",
 "descrizione": "RX SELLA TURCICA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4462,10 +4663,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840499"
+"url": "/p/RAD046"
 },
 {
 "codice": "840486",
+"shortcut": "RAD047",
 "descrizione": "RX TESSUTI MOLLI DEL COLLO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4484,10 +4686,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840486"
+"url": "/p/RAD047"
 },
 {
 "codice": "840487",
+"shortcut": "RAD048",
 "descrizione": "RX DIRETTA GHIANDOLE SALIVARI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4506,10 +4709,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840487"
+"url": "/p/RAD048"
 },
 {
 "codice": "840443",
+"shortcut": "RAD049",
 "descrizione": "RX SENI PARANASALI",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4528,10 +4732,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840443"
+"url": "/p/RAD049"
 },
 {
 "codice": "840534",
+"shortcut": "RAD050",
 "descrizione": "RX ESAME DIRETTO DEL RINOFARINGE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4550,10 +4755,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840534"
+"url": "/p/RAD050"
 },
 {
 "codice": "840535",
+"shortcut": "RAD051",
 "descrizione": "RX ESAME DIRETTO DEL FARINGE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4572,10 +4778,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840535"
+"url": "/p/RAD051"
 },
 {
 "codice": "840532",
+"shortcut": "RAD052",
 "descrizione": "RX ESOFAGO CON MDC SINGOLO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico\nTD-SGI-MOD169_00_Consenso_RX_Digerente",
 "preparazioni": [
@@ -4600,10 +4807,11 @@
 "file": "stampabili/TD-SGI-MOD169_00_Consenso_RX_Digerente.pdf"
 }
 ],
-"url": "/p/840532"
+"url": "/p/RAD052"
 },
 {
 "codice": "840533",
+"shortcut": "RAD053",
 "descrizione": "RX ESAME DIRETTO DELL'ADDOME",
 "preparazione_raw": "TD-SGI-INF045_00_RX_Addome_Diretto",
 "preparazioni": [
@@ -4622,10 +4830,11 @@
 "file": "stampabili/TD-SGI-INF045_00_RX_Addome_Diretto.pdf"
 }
 ],
-"url": "/p/840533"
+"url": "/p/RAD053"
 },
 {
 "codice": "840480",
+"shortcut": "RAD054",
 "descrizione": "RX ESAME MORFOMETRICO VERTEBRALE DORSALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4644,10 +4853,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840480"
+"url": "/p/RAD054"
 },
 {
 "codice": "840481",
+"shortcut": "RAD055",
 "descrizione": "RX ESAME MORFOMETRICO VERTEBRALE LOMBARE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4666,10 +4876,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840481"
+"url": "/p/RAD055"
 },
 {
 "codice": "840408",
+"shortcut": "RAD056",
 "descrizione": "RX PROIEZIONI OBLIQUE DELLA COLONNA CERVICALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4688,10 +4899,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840408"
+"url": "/p/RAD056"
 },
 {
 "codice": "840412",
+"shortcut": "RAD057",
 "descrizione": "RX PROIEZIONI OBLIQUE DELLA COLONNA DORSALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4710,10 +4922,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840412"
+"url": "/p/RAD057"
 },
 {
 "codice": "840413",
+"shortcut": "RAD058",
 "descrizione": "RX PROIEZIONI OBLIQUE DELLA COLONNA LOMBOSACRALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4732,10 +4945,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840413"
+"url": "/p/RAD058"
 },
 {
 "codice": "840537",
+"shortcut": "RAD059",
 "descrizione": "RX COLONNA CERVICALE CON STUDIO DINAMICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4754,10 +4968,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840537"
+"url": "/p/RAD059"
 },
 {
 "codice": "840542",
+"shortcut": "RAD060",
 "descrizione": "RX COLONNA DORSALE CON STUDIO DINAMICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4776,10 +4991,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840542"
+"url": "/p/RAD060"
 },
 {
 "codice": "840543",
+"shortcut": "RAD061",
 "descrizione": "RX COLONNA LOMBOSACRALE CON STUDIO DINAMICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4798,10 +5014,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840543"
+"url": "/p/RAD061"
 },
 {
 "codice": "840482",
+"shortcut": "RAD062",
 "descrizione": "RX COLONNA DORSALE CON PROIEZIONI OBLIQUE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4820,10 +5037,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840482"
+"url": "/p/RAD062"
 },
 {
 "codice": "840483",
+"shortcut": "RAD063",
 "descrizione": "RX COLONNA LOMBOSACRALE CON PROIEZIONI OBLIQUE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4842,10 +5060,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840483"
+"url": "/p/RAD063"
 },
 {
 "codice": "840489",
+"shortcut": "RAD064",
 "descrizione": "RX GOMITO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4864,10 +5083,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840489"
+"url": "/p/RAD064"
 },
 {
 "codice": "840490",
+"shortcut": "RAD065",
 "descrizione": "RX AVAMBRACCIO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4886,10 +5106,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840490"
+"url": "/p/RAD065"
 },
 {
 "codice": "840491",
+"shortcut": "RAD066",
 "descrizione": "RX AVAMBRACCIO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4908,10 +5129,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840491"
+"url": "/p/RAD066"
 },
 {
 "codice": "840492",
+"shortcut": "RAD067",
 "descrizione": "RX POLSO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4930,10 +5152,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840492"
+"url": "/p/RAD067"
 },
 {
 "codice": "840493",
+"shortcut": "RAD068",
 "descrizione": "RX POLSO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4952,10 +5175,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840493"
+"url": "/p/RAD068"
 },
 {
 "codice": "840494",
+"shortcut": "RAD069",
 "descrizione": "RX MANO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4974,10 +5198,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840494"
+"url": "/p/RAD069"
 },
 {
 "codice": "840495",
+"shortcut": "RAD070",
 "descrizione": "RX MANO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -4996,10 +5221,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840495"
+"url": "/p/RAD070"
 },
 {
 "codice": "840446",
+"shortcut": "RAD071",
 "descrizione": "RX ASSIALE DI ROTULA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5018,10 +5244,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840446"
+"url": "/p/RAD071"
 },
 {
 "codice": "840447",
+"shortcut": "RAD072",
 "descrizione": "RX ASSIALE DI ROTULA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5040,10 +5267,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840447"
+"url": "/p/RAD072"
 },
 {
 "codice": "840541",
+"shortcut": "RAD073",
 "descrizione": "RX BACINO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5062,10 +5290,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840541"
+"url": "/p/RAD073"
 },
 {
 "codice": "840597",
+"shortcut": "RAD074",
 "descrizione": "RX BACINO O PELVI PER ANCHE  (STANDARD O ORTOSTATISMO)",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5084,10 +5313,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840597"
+"url": "/p/RAD074"
 },
 {
 "codice": "840475",
+"shortcut": "RAD075",
 "descrizione": "RX ANCA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5106,10 +5336,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840475"
+"url": "/p/RAD075"
 },
 {
 "codice": "840476",
+"shortcut": "RAD076",
 "descrizione": "RX ANCA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5128,10 +5359,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840476"
+"url": "/p/RAD076"
 },
 {
 "codice": "840448",
+"shortcut": "RAD077",
 "descrizione": "RX FEMORE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5150,10 +5382,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840448"
+"url": "/p/RAD077"
 },
 {
 "codice": "840449",
+"shortcut": "RAD078",
 "descrizione": "RX FEMORE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5172,10 +5405,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840449"
+"url": "/p/RAD078"
 },
 {
 "codice": "840450",
+"shortcut": "RAD079",
 "descrizione": "RX GINOCCHIO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5194,10 +5428,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840450"
+"url": "/p/RAD079"
 },
 {
 "codice": "840451",
+"shortcut": "RAD080",
 "descrizione": "RX GINOCCHIO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5216,10 +5451,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840451"
+"url": "/p/RAD080"
 },
 {
 "codice": "840452",
+"shortcut": "RAD081",
 "descrizione": "RX GAMBA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5238,10 +5474,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840452"
+"url": "/p/RAD081"
 },
 {
 "codice": "840453",
+"shortcut": "RAD082",
 "descrizione": "RX GAMBA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5260,10 +5497,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840453"
+"url": "/p/RAD082"
 },
 {
 "codice": "840467",
+"shortcut": "RAD083",
 "descrizione": "RX CAVIGLIA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5282,10 +5520,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840467"
+"url": "/p/RAD083"
 },
 {
 "codice": "840468",
+"shortcut": "RAD084",
 "descrizione": "RX CAVIGLIA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5304,10 +5543,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840468"
+"url": "/p/RAD084"
 },
 {
 "codice": "840469",
+"shortcut": "RAD085",
 "descrizione": "RX PIEDE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5326,10 +5566,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840469"
+"url": "/p/RAD085"
 },
 {
 "codice": "840470",
+"shortcut": "RAD086",
 "descrizione": "RX PIEDE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5348,10 +5589,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840470"
+"url": "/p/RAD086"
 },
 {
 "codice": "840471",
+"shortcut": "RAD087",
 "descrizione": "RX CALCAGNO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5370,10 +5612,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840471"
+"url": "/p/RAD087"
 },
 {
 "codice": "840472",
+"shortcut": "RAD088",
 "descrizione": "RX CALCAGNO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5392,10 +5635,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840472"
+"url": "/p/RAD088"
 },
 {
 "codice": "840473",
+"shortcut": "RAD089",
 "descrizione": "RX AVAMPIEDE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5414,10 +5658,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840473"
+"url": "/p/RAD089"
 },
 {
 "codice": "840474",
+"shortcut": "RAD090",
 "descrizione": "RX AVAMPIEDE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5436,10 +5681,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840474"
+"url": "/p/RAD090"
 },
 {
 "codice": "840500",
+"shortcut": "RAD091",
 "descrizione": "RX DITO PIEDE DESTRO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5458,10 +5704,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840500"
+"url": "/p/RAD091"
 },
 {
 "codice": "840501",
+"shortcut": "RAD092",
 "descrizione": "RX DITO PIEDE SINISTRO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5480,10 +5727,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840501"
+"url": "/p/RAD092"
 },
 {
 "codice": "840589",
+"shortcut": "RAD093",
 "descrizione": "RX ARTI INFERIORI E BACINO SOTTO CARICO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5502,10 +5750,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840589"
+"url": "/p/RAD093"
 },
 {
 "codice": "840598",
+"shortcut": "RAD094",
 "descrizione": "RX ARTI INFERIORI IN ORTOSTATISMO (BIL.)",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5524,10 +5773,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840598"
+"url": "/p/RAD094"
 },
 {
 "codice": "840502",
+"shortcut": "RAD095",
 "descrizione": "RX SEGM ARTO IN ORTOST. O SOTTOC.(OGNI SEG MONOL.) DESTRO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5546,10 +5796,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840502"
+"url": "/p/RAD095"
 },
 {
 "codice": "840503",
+"shortcut": "RAD096",
 "descrizione": "RX SEGM ARTO IN ORTOST. O SOTTOC.(OGNI SEG MONOL.) SINISTRO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5568,10 +5819,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840503"
+"url": "/p/RAD096"
 },
 {
 "codice": "840428",
+"shortcut": "RAD097",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DELLA SPALLA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5590,10 +5842,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840428"
+"url": "/p/RAD097"
 },
 {
 "codice": "840429",
+"shortcut": "RAD098",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DELLA SPALLA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5612,10 +5865,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840429"
+"url": "/p/RAD098"
 },
 {
 "codice": "840430",
+"shortcut": "RAD099",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL GOMITO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5634,10 +5888,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840430"
+"url": "/p/RAD099"
 },
 {
 "codice": "840431",
+"shortcut": "RAD100",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL GOMITO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5656,10 +5911,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840431"
+"url": "/p/RAD100"
 },
 {
 "codice": "840432",
+"shortcut": "RAD101",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL POLSO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5678,10 +5934,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840432"
+"url": "/p/RAD101"
 },
 {
 "codice": "840433",
+"shortcut": "RAD102",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL POLSO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5700,10 +5957,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840433"
+"url": "/p/RAD102"
 },
 {
 "codice": "840434",
+"shortcut": "RAD103",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL GINOCCHIO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5722,10 +5980,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840434"
+"url": "/p/RAD103"
 },
 {
 "codice": "840435",
+"shortcut": "RAD104",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DEL GINOCCHIO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5744,10 +6003,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840435"
+"url": "/p/RAD104"
 },
 {
 "codice": "840436",
+"shortcut": "RAD105",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DI CAVIGLIA E PIEDE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5766,10 +6026,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840436"
+"url": "/p/RAD105"
 },
 {
 "codice": "840437",
+"shortcut": "RAD106",
 "descrizione": "RX STUDIO DINAMICO ARTICOLARE SOTTO STRESS E/O SOTTOCARICO DI CAVIGLIA E PIEDE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5788,10 +6049,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840437"
+"url": "/p/RAD106"
 },
 {
 "codice": "840477",
+"shortcut": "RAD107",
 "descrizione": "RX ARTICOLAZIONI SACROILIACHE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5810,10 +6072,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840477"
+"url": "/p/RAD107"
 },
 {
 "codice": "840496",
+"shortcut": "RAD108",
 "descrizione": "RX SCAFOIDE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5832,10 +6095,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840496"
+"url": "/p/RAD108"
 },
 {
 "codice": "840497",
+"shortcut": "RAD109",
 "descrizione": "RX SCAFOIDE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5854,10 +6118,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840497"
+"url": "/p/RAD109"
 },
 {
 "codice": "840504",
+"shortcut": "RAD110",
 "descrizione": "RX DITO MANO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5876,10 +6141,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840504"
+"url": "/p/RAD110"
 },
 {
 "codice": "840505",
+"shortcut": "RAD111",
 "descrizione": "RX DITO MANO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5898,10 +6164,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840505"
+"url": "/p/RAD111"
 },
 {
 "codice": "840705",
+"shortcut": "RAD112",
 "descrizione": "RX SCHELETRO IN TOTO PER PATOLOGIA SISTEMICA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5920,10 +6187,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840705"
+"url": "/p/RAD112"
 },
 {
 "codice": "840506",
+"shortcut": "RAD113",
 "descrizione": "RX TRACHEA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5942,10 +6210,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840506"
+"url": "/p/RAD113"
 },
 {
 "codice": "840422",
+"shortcut": "RAD114",
 "descrizione": "RX EMITORACE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5964,10 +6233,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840422"
+"url": "/p/RAD114"
 },
 {
 "codice": "840423",
+"shortcut": "RAD115",
 "descrizione": "RX EMITORACE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -5986,10 +6256,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840423"
+"url": "/p/RAD115"
 },
 {
 "codice": "840507",
+"shortcut": "RAD116",
 "descrizione": "RX MAXILLO FACCIALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6008,10 +6279,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840507"
+"url": "/p/RAD116"
 },
 {
 "codice": "840508",
+"shortcut": "RAD117",
 "descrizione": "RX OMERO DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6030,10 +6302,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840508"
+"url": "/p/RAD117"
 },
 {
 "codice": "840509",
+"shortcut": "RAD118",
 "descrizione": "RX OMERO SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6052,10 +6325,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840509"
+"url": "/p/RAD118"
 },
 {
 "codice": "840399",
+"shortcut": "RAD119",
 "descrizione": "RX PROIEZIONE AGGIUNTIVA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6074,10 +6348,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840399"
+"url": "/p/RAD119"
 },
 {
 "codice": "840706",
+"shortcut": "RAD120",
 "descrizione": "RX COLONNA IN TOTO IN ORTOSTASI CON DENTE EPISTROFEO",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6096,10 +6371,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840706"
+"url": "/p/RAD120"
 },
 {
 "codice": "840510",
+"shortcut": "RAD121",
 "descrizione": "RX ARTICOLAZIONE COXO-FEMORALE DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6118,10 +6394,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840510"
+"url": "/p/RAD121"
 },
 {
 "codice": "840511",
+"shortcut": "RAD122",
 "descrizione": "RX ARTICOLAZIONE COXO-FEMORALE SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6140,10 +6417,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840511"
+"url": "/p/RAD122"
 },
 {
 "codice": "840512",
+"shortcut": "RAD123",
 "descrizione": "RX SACROILIACA DX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6162,10 +6440,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840512"
+"url": "/p/RAD123"
 },
 {
 "codice": "840513",
+"shortcut": "RAD124",
 "descrizione": "RX SACROILIACA SX",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6184,10 +6463,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840513"
+"url": "/p/RAD124"
 },
 {
 "codice": "840401",
+"shortcut": "RAD125",
 "descrizione": "RX PROIEZIONE CEFALOMETRICA LATERALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6206,10 +6486,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840401"
+"url": "/p/RAD125"
 },
 {
 "codice": "840402",
+"shortcut": "RAD126",
 "descrizione": "RX PROIEZIONE CEFALOMETRICA POSTERO-ANTERIORE (PA)",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6228,10 +6509,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840402"
+"url": "/p/RAD126"
 },
 {
 "codice": "840396",
+"shortcut": "RAD127",
 "descrizione": "PROGRAMMA BITEWING",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6250,10 +6532,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/840396"
+"url": "/p/RAD127"
 },
 {
 "codice": "850562",
+"shortcut": "RAD128",
 "descrizione": "RX ORTOPANTOMOGRAFICA ARCATE DENTARIE PEDIATRICA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6272,10 +6555,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/850562"
+"url": "/p/RAD128"
 },
 {
 "codice": "850565",
+"shortcut": "RAD129",
 "descrizione": "RX ORTOPANTOMOGRAFICA ARCATE DENTARIE PEDIATRICA SETTORIALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6294,10 +6578,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/850565"
+"url": "/p/RAD129"
 },
 {
 "codice": "853482",
+"shortcut": "RAD130",
 "descrizione": "RX PROIEZIONE CEFALOMETRICA LATERALE PEDIATRICA",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6316,10 +6601,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/853482"
+"url": "/p/RAD130"
 },
 {
 "codice": "853497",
+"shortcut": "RAD131",
 "descrizione": "RX ARTICOLAZIONE TEMPOROMANDIBOLARE BILATERALE",
 "preparazione_raw": "TD-SGI-INF046_00_RX_Generico.pdf",
 "preparazioni": [
@@ -6338,10 +6624,11 @@
 "file": "stampabili/TD-SGI-INF046_00_RX_Generico.pdf"
 }
 ],
-"url": "/p/853497"
+"url": "/p/RAD131"
 },
 {
 "codice": "840730",
+"shortcut": "RMN001",
 "descrizione": "RM RACHIDE CERVICALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6360,10 +6647,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840730"
+"url": "/p/RMN001"
 },
 {
 "codice": "840731",
+"shortcut": "RMN002",
 "descrizione": "RM RACHIDE DORSALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6382,10 +6670,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840731"
+"url": "/p/RMN002"
 },
 {
 "codice": "840732",
+"shortcut": "RMN003",
 "descrizione": "RM RACHIDE LOMBOSACRALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6404,10 +6693,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840732"
+"url": "/p/RMN003"
 },
 {
 "codice": "840733",
+"shortcut": "RMN004",
 "descrizione": "RM RACHIDE SACROCOCCIGEO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6426,10 +6716,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840733"
+"url": "/p/RMN004"
 },
 {
 "codice": "840918",
+"shortcut": "RMN005",
 "descrizione": "RM DELLA COLONNA IN TOTO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6448,10 +6739,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840918"
+"url": "/p/RMN005"
 },
 {
 "codice": "840734",
+"shortcut": "RMN006",
 "descrizione": "RM SPALLA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6470,10 +6762,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840734"
+"url": "/p/RMN006"
 },
 {
 "codice": "840735",
+"shortcut": "RMN007",
 "descrizione": "RM SPALLA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6492,10 +6785,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840735"
+"url": "/p/RMN007"
 },
 {
 "codice": "840736",
+"shortcut": "RMN008",
 "descrizione": "RM BRACCIO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6514,10 +6808,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840736"
+"url": "/p/RMN008"
 },
 {
 "codice": "840737",
+"shortcut": "RMN009",
 "descrizione": "RM BRACCIO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6536,10 +6831,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840737"
+"url": "/p/RMN009"
 },
 {
 "codice": "840738",
+"shortcut": "RMN010",
 "descrizione": "RM GOMITO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6558,10 +6854,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840738"
+"url": "/p/RMN010"
 },
 {
 "codice": "840739",
+"shortcut": "RMN011",
 "descrizione": "RM GOMITO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6580,10 +6877,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840739"
+"url": "/p/RMN011"
 },
 {
 "codice": "840740",
+"shortcut": "RMN012",
 "descrizione": "RM AVAMBRACCIO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6602,10 +6900,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840740"
+"url": "/p/RMN012"
 },
 {
 "codice": "840741",
+"shortcut": "RMN013",
 "descrizione": "RM AVAMBRACCIO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6624,10 +6923,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840741"
+"url": "/p/RMN013"
 },
 {
 "codice": "840742",
+"shortcut": "RMN014",
 "descrizione": "RM POLSO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6646,10 +6946,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840742"
+"url": "/p/RMN014"
 },
 {
 "codice": "840759",
+"shortcut": "RMN015",
 "descrizione": "RM MUSCOLOSCHELETRICA E DEI TESSUTI MOLLI",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6668,10 +6969,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840759"
+"url": "/p/RMN015"
 },
 {
 "codice": "840760",
+"shortcut": "RMN016",
 "descrizione": "RM ADDOME SUPERIORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6690,10 +6992,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840760"
+"url": "/p/RMN016"
 },
 {
 "codice": "840761",
+"shortcut": "RMN017",
 "descrizione": "RM ADDOME INFERIORE E SCAVO PELVICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6712,10 +7015,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840761"
+"url": "/p/RMN017"
 },
 {
 "codice": "840762",
+"shortcut": "RMN018",
 "descrizione": "PIELO-RM",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6734,10 +7038,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840762"
+"url": "/p/RMN018"
 },
 {
 "codice": "840763",
+"shortcut": "RMN019",
 "descrizione": "RM INGUINE-SCROTO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6756,10 +7061,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840763"
+"url": "/p/RMN019"
 },
 {
 "codice": "840764",
+"shortcut": "RMN020",
 "descrizione": "RM PENE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6778,10 +7084,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840764"
+"url": "/p/RMN020"
 },
 {
 "codice": "840765",
+"shortcut": "RMN021",
 "descrizione": "RM PENE CON FARMACOSTIMOLAZIONE I.C.",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6800,10 +7107,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840765"
+"url": "/p/RMN021"
 },
 {
 "codice": "840743",
+"shortcut": "RMN022",
 "descrizione": "RM POLSO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6822,10 +7130,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840743"
+"url": "/p/RMN022"
 },
 {
 "codice": "840744",
+"shortcut": "RMN023",
 "descrizione": "RM MANO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6844,10 +7153,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840744"
+"url": "/p/RMN023"
 },
 {
 "codice": "840745",
+"shortcut": "RMN024",
 "descrizione": "RM MANO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6866,10 +7176,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840745"
+"url": "/p/RMN024"
 },
 {
 "codice": "840746",
+"shortcut": "RMN025",
 "descrizione": "RM BACINO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6888,10 +7199,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840746"
+"url": "/p/RMN025"
 },
 {
 "codice": "840747",
+"shortcut": "RMN026",
 "descrizione": "RM ANCA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6910,10 +7222,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840747"
+"url": "/p/RMN026"
 },
 {
 "codice": "840748",
+"shortcut": "RMN027",
 "descrizione": "RM ANCA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6932,10 +7245,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840748"
+"url": "/p/RMN027"
 },
 {
 "codice": "840785",
+"shortcut": "RMN028",
 "descrizione": "RM ANCA BILATERALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6954,10 +7268,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840785"
+"url": "/p/RMN028"
 },
 {
 "codice": "840749",
+"shortcut": "RMN029",
 "descrizione": "RM COSCIA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6976,10 +7291,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840749"
+"url": "/p/RMN029"
 },
 {
 "codice": "840750",
+"shortcut": "RMN030",
 "descrizione": "RM COSCIA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -6998,10 +7314,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840750"
+"url": "/p/RMN030"
 },
 {
 "codice": "840751",
+"shortcut": "RMN031",
 "descrizione": "RM GINOCCHIO DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7020,10 +7337,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840751"
+"url": "/p/RMN031"
 },
 {
 "codice": "840752",
+"shortcut": "RMN032",
 "descrizione": "RM GINOCCHIO SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7042,10 +7360,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840752"
+"url": "/p/RMN032"
 },
 {
 "codice": "840753",
+"shortcut": "RMN033",
 "descrizione": "RM GAMBA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7064,10 +7383,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840753"
+"url": "/p/RMN033"
 },
 {
 "codice": "840754",
+"shortcut": "RMN034",
 "descrizione": "RM GAMBA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7086,10 +7406,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840754"
+"url": "/p/RMN034"
 },
 {
 "codice": "840755",
+"shortcut": "RMN035",
 "descrizione": "RM CAVIGLIA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7108,10 +7429,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840755"
+"url": "/p/RMN035"
 },
 {
 "codice": "840756",
+"shortcut": "RMN036",
 "descrizione": "RM CAVIGLIA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7130,10 +7452,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840756"
+"url": "/p/RMN036"
 },
 {
 "codice": "840757",
+"shortcut": "RMN037",
 "descrizione": "RM PIEDE DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7152,10 +7475,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840757"
+"url": "/p/RMN037"
 },
 {
 "codice": "840758",
+"shortcut": "RMN038",
 "descrizione": "RM PIEDE SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7174,10 +7498,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840758"
+"url": "/p/RMN038"
 },
 {
 "codice": "840792",
+"shortcut": "RMN039",
 "descrizione": "RM ENCEFALO E TRONCO ENCEFALICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7196,10 +7521,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840792"
+"url": "/p/RMN039"
 },
 {
 "codice": "840793",
+"shortcut": "RMN040",
 "descrizione": "RM FLUSSIMETRIA LIQUORALE QUANTITATIVA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7218,10 +7544,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840793"
+"url": "/p/RMN040"
 },
 {
 "codice": "840895",
+"shortcut": "RMN041",
 "descrizione": "RM FLUSSIMETRIA LIQUORALE QUANTITATIVA ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7240,10 +7567,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840895"
+"url": "/p/RMN041"
 },
 {
 "codice": "840794",
+"shortcut": "RMN042",
 "descrizione": "RM STUDI FUNZIONALI E ATTIVAZIONE CORTICALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7262,10 +7590,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840794"
+"url": "/p/RMN042"
 },
 {
 "codice": "840890",
+"shortcut": "RMN043",
 "descrizione": "RM STUDI FUNZIONALI E ATTIVAZIONE CORTICALE ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7284,10 +7613,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840890"
+"url": "/p/RMN043"
 },
 {
 "codice": "840795",
+"shortcut": "RMN044",
 "descrizione": "RM ENCEFALO CON CENTRAMENTO NEURONAVIGATORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7306,10 +7636,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840795"
+"url": "/p/RMN044"
 },
 {
 "codice": "840796",
+"shortcut": "RMN045",
 "descrizione": "RM ENCEFALO CON CENTRAMENTO STEREOTASSICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7328,10 +7659,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840796"
+"url": "/p/RMN045"
 },
 {
 "codice": "840766",
+"shortcut": "RMN046",
 "descrizione": "RM COLLO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7350,10 +7682,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840766"
+"url": "/p/RMN046"
 },
 {
 "codice": "840841",
+"shortcut": "RMN047",
 "descrizione": "RM FETALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7372,10 +7705,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840841"
+"url": "/p/RMN047"
 },
 {
 "codice": "840797",
+"shortcut": "RMN048",
 "descrizione": "RM DIFFUSIONE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7394,10 +7728,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840797"
+"url": "/p/RMN048"
 },
 {
 "codice": "840869",
+"shortcut": "RMN049",
 "descrizione": "RM DIFFUSIONE ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7416,10 +7751,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840869"
+"url": "/p/RMN049"
 },
 {
 "codice": "840798",
+"shortcut": "RMN050",
 "descrizione": "RM DIFFUSIONE-PERFUSIONE ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7438,10 +7774,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840798"
+"url": "/p/RMN050"
 },
 {
 "codice": "840799",
+"shortcut": "RMN051",
 "descrizione": "RM SPETTROSCOPIA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7460,10 +7797,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840799"
+"url": "/p/RMN051"
 },
 {
 "codice": "840870",
+"shortcut": "RMN052",
 "descrizione": "RM SPETTROSCOPIA ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7482,10 +7820,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840870"
+"url": "/p/RMN052"
 },
 {
 "codice": "840881",
+"shortcut": "RMN053",
 "descrizione": "RM RACHIDE CERVICALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7504,10 +7843,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840881"
+"url": "/p/RMN053"
 },
 {
 "codice": "840882",
+"shortcut": "RMN054",
 "descrizione": "RM RACHIDE DORSALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7526,10 +7866,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840882"
+"url": "/p/RMN054"
 },
 {
 "codice": "840883",
+"shortcut": "RMN055",
 "descrizione": "RM RACHIDE LOMBO-SACRALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7548,10 +7889,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840883"
+"url": "/p/RMN055"
 },
 {
 "codice": "840884",
+"shortcut": "RMN056",
 "descrizione": "RM RACHIDE SACROCOCCIGEO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7570,10 +7912,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840884"
+"url": "/p/RMN056"
 },
 {
 "codice": "840888",
+"shortcut": "RMN057",
 "descrizione": "RM MUSCOLOSCHELETRICA E DEI TESSUTI MOLLI SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7592,10 +7935,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840888"
+"url": "/p/RMN057"
 },
 {
 "codice": "840826",
+"shortcut": "RMN058",
 "descrizione": "RM ADDOME INFERIORE E SCAVO PELVICO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7614,10 +7958,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840826"
+"url": "/p/RMN058"
 },
 {
 "codice": "840827",
+"shortcut": "RMN059",
 "descrizione": "RM INGUINE-SCROTO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7636,10 +7981,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840827"
+"url": "/p/RMN059"
 },
 {
 "codice": "840828",
+"shortcut": "RMN060",
 "descrizione": "RM PENE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7658,10 +8004,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840828"
+"url": "/p/RMN060"
 },
 {
 "codice": "840829",
+"shortcut": "RMN061",
 "descrizione": "RM PENE CON FARMACOSTIMOLAZIONE I.C. SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7680,10 +8027,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840829"
+"url": "/p/RMN061"
 },
 {
 "codice": "840927",
+"shortcut": "RMN062",
 "descrizione": "RM DELLA COLONNA IN TOTO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7702,10 +8050,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840927"
+"url": "/p/RMN062"
 },
 {
 "codice": "840801",
+"shortcut": "RMN063",
 "descrizione": "RM SPALLA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7724,10 +8073,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840801"
+"url": "/p/RMN063"
 },
 {
 "codice": "840802",
+"shortcut": "RMN064",
 "descrizione": "RM SPALLA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7746,10 +8096,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840802"
+"url": "/p/RMN064"
 },
 {
 "codice": "840803",
+"shortcut": "RMN065",
 "descrizione": "RM BRACCIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7768,10 +8119,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840803"
+"url": "/p/RMN065"
 },
 {
 "codice": "840804",
+"shortcut": "RMN066",
 "descrizione": "RM BRACCIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7790,10 +8142,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840804"
+"url": "/p/RMN066"
 },
 {
 "codice": "840805",
+"shortcut": "RMN067",
 "descrizione": "RM GOMITO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7812,10 +8165,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840805"
+"url": "/p/RMN067"
 },
 {
 "codice": "840806",
+"shortcut": "RMN068",
 "descrizione": "RM GOMITO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7834,10 +8188,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840806"
+"url": "/p/RMN068"
 },
 {
 "codice": "840807",
+"shortcut": "RMN069",
 "descrizione": "RM AVAMBRACCIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7856,10 +8211,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840807"
+"url": "/p/RMN069"
 },
 {
 "codice": "840808",
+"shortcut": "RMN070",
 "descrizione": "RM AVAMBRACCIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7878,10 +8234,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840808"
+"url": "/p/RMN070"
 },
 {
 "codice": "840809",
+"shortcut": "RMN071",
 "descrizione": "RM POLSO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7900,10 +8257,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840809"
+"url": "/p/RMN071"
 },
 {
 "codice": "840810",
+"shortcut": "RMN072",
 "descrizione": "RM POLSO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7922,10 +8280,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840810"
+"url": "/p/RMN072"
 },
 {
 "codice": "840811",
+"shortcut": "RMN073",
 "descrizione": "RM MANO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7944,10 +8303,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840811"
+"url": "/p/RMN073"
 },
 {
 "codice": "840812",
+"shortcut": "RMN074",
 "descrizione": "RM MANO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7966,10 +8326,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840812"
+"url": "/p/RMN074"
 },
 {
 "codice": "840813",
+"shortcut": "RMN075",
 "descrizione": "RM BACINO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -7988,10 +8349,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840813"
+"url": "/p/RMN075"
 },
 {
 "codice": "840814",
+"shortcut": "RMN076",
 "descrizione": "RM ANCA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8010,10 +8372,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840814"
+"url": "/p/RMN076"
 },
 {
 "codice": "840815",
+"shortcut": "RMN077",
 "descrizione": "RM ANCA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8032,10 +8395,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840815"
+"url": "/p/RMN077"
 },
 {
 "codice": "840899",
+"shortcut": "RMN078",
 "descrizione": "RM ANCA BILATERALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8054,10 +8418,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840899"
+"url": "/p/RMN078"
 },
 {
 "codice": "840816",
+"shortcut": "RMN079",
 "descrizione": "RM COSCIA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8076,10 +8441,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840816"
+"url": "/p/RMN079"
 },
 {
 "codice": "840817",
+"shortcut": "RMN080",
 "descrizione": "RM COSCIA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8098,10 +8464,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840817"
+"url": "/p/RMN080"
 },
 {
 "codice": "840818",
+"shortcut": "RMN081",
 "descrizione": "RM GINOCCHIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8120,10 +8487,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840818"
+"url": "/p/RMN081"
 },
 {
 "codice": "840819",
+"shortcut": "RMN082",
 "descrizione": "RM GINOCCHIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8142,10 +8510,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840819"
+"url": "/p/RMN082"
 },
 {
 "codice": "840820",
+"shortcut": "RMN083",
 "descrizione": "RM GAMBA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8164,10 +8533,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840820"
+"url": "/p/RMN083"
 },
 {
 "codice": "840821",
+"shortcut": "RMN084",
 "descrizione": "RM GAMBA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8186,10 +8556,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840821"
+"url": "/p/RMN084"
 },
 {
 "codice": "840822",
+"shortcut": "RMN085",
 "descrizione": "RM CAVIGLIA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8208,10 +8579,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840822"
+"url": "/p/RMN085"
 },
 {
 "codice": "840823",
+"shortcut": "RMN086",
 "descrizione": "RM CAVIGLIA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8230,10 +8602,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840823"
+"url": "/p/RMN086"
 },
 {
 "codice": "840824",
+"shortcut": "RMN087",
 "descrizione": "RM PIEDE DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8252,10 +8625,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840824"
+"url": "/p/RMN087"
 },
 {
 "codice": "840825",
+"shortcut": "RMN088",
 "descrizione": "RM PIEDE SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8274,10 +8648,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840825"
+"url": "/p/RMN088"
 },
 {
 "codice": "840900",
+"shortcut": "RMN089",
 "descrizione": "ARTRO RM SPALLA DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8296,10 +8671,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840900"
+"url": "/p/RMN089"
 },
 {
 "codice": "840901",
+"shortcut": "RMN090",
 "descrizione": "ARTRO RM SPALLA SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8318,10 +8694,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840901"
+"url": "/p/RMN090"
 },
 {
 "codice": "840902",
+"shortcut": "RMN091",
 "descrizione": "ARTRO RM GOMITO DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8340,10 +8717,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840902"
+"url": "/p/RMN091"
 },
 {
 "codice": "840903",
+"shortcut": "RMN092",
 "descrizione": "ARTRO RM GOMITO SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8362,10 +8740,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840903"
+"url": "/p/RMN092"
 },
 {
 "codice": "840904",
+"shortcut": "RMN093",
 "descrizione": "ARTRO RM POLSO DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8384,10 +8763,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840904"
+"url": "/p/RMN093"
 },
 {
 "codice": "840905",
+"shortcut": "RMN094",
 "descrizione": "ARTRO RM POLSO SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8406,10 +8786,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840905"
+"url": "/p/RMN094"
 },
 {
 "codice": "840906",
+"shortcut": "RMN095",
 "descrizione": "ARTRO RM ANCA DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8428,10 +8809,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840906"
+"url": "/p/RMN095"
 },
 {
 "codice": "840907",
+"shortcut": "RMN096",
 "descrizione": "ARTRO RM ANCA SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8450,10 +8832,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840907"
+"url": "/p/RMN096"
 },
 {
 "codice": "840908",
+"shortcut": "RMN097",
 "descrizione": "ARTRO RM GINOCCHIO DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8472,10 +8855,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840908"
+"url": "/p/RMN097"
 },
 {
 "codice": "840909",
+"shortcut": "RMN098",
 "descrizione": "ARTRO RM GINOCCHIO SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8494,10 +8878,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840909"
+"url": "/p/RMN098"
 },
 {
 "codice": "840910",
+"shortcut": "RMN099",
 "descrizione": "ARTRO RM CAVIGLIA DX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8516,10 +8901,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840910"
+"url": "/p/RMN099"
 },
 {
 "codice": "840911",
+"shortcut": "RMN100",
 "descrizione": "ARTRO RM CAVIGLIA SX (INCLUSO ESAME DI BASE)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8538,10 +8924,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840911"
+"url": "/p/RMN100"
 },
 {
 "codice": "840912",
+"shortcut": "RMN101",
 "descrizione": "RM ENCEFALO CON CENTRAMENTO NEURONAVIGATORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8560,10 +8947,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840912"
+"url": "/p/RMN101"
 },
 {
 "codice": "840913",
+"shortcut": "RMN102",
 "descrizione": "RM ENCEFALO CON CENTRAMENTO STEREOTASSICO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8582,10 +8970,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840913"
+"url": "/p/RMN102"
 },
 {
 "codice": "840914",
+"shortcut": "RMN103",
 "descrizione": "RM ENCEFALO E TRONCO ENCEFALICO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8604,10 +8993,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840914"
+"url": "/p/RMN103"
 },
 {
 "codice": "840767",
+"shortcut": "RMN105",
 "descrizione": "RM A.T.M. MONOLATERALE DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8626,10 +9016,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840767"
+"url": "/p/RMN105"
 },
 {
 "codice": "840768",
+"shortcut": "RMN106",
 "descrizione": "RM A.T.M. MONOLATERALE SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8648,10 +9039,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840768"
+"url": "/p/RMN106"
 },
 {
 "codice": "840800",
+"shortcut": "RMN107",
 "descrizione": "RM A.T.M. BILATERALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8670,10 +9062,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840800"
+"url": "/p/RMN107"
 },
 {
 "codice": "840769",
+"shortcut": "RMN108",
 "descrizione": "RM MASSICCIO FACCIALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8692,10 +9085,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840769"
+"url": "/p/RMN108"
 },
 {
 "codice": "840778",
+"shortcut": "RMN109",
 "descrizione": "RM DEL MASSICCIO FACCIALE. Studio multidistrettuale di due o più segmenti/distretti",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8714,10 +9108,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840778"
+"url": "/p/RMN109"
 },
 {
 "codice": "840897",
+"shortcut": "RMN110",
 "descrizione": "(CINE) RM DEL CUORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF063_00_RM_Cuore_MdC.pdf",
 "preparazioni": [
@@ -8742,10 +9137,11 @@
 "file": "stampabili/TD-SGI-INF063_00_RM_Cuore_MdC.pdf"
 }
 ],
-"url": "/p/840897"
+"url": "/p/RMN110"
 },
 {
 "codice": "840916",
+"shortcut": "RMN111",
 "descrizione": "(CINE) RM DEL CUORE SENZA E CON STRESS FUNZIONALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF063_00_RM_Cuore_MdC.pdf",
 "preparazioni": [
@@ -8770,10 +9166,11 @@
 "file": "stampabili/TD-SGI-INF063_00_RM_Cuore_MdC.pdf"
 }
 ],
-"url": "/p/840916"
+"url": "/p/RMN111"
 },
 {
 "codice": "840917",
+"shortcut": "RMN112",
 "descrizione": "ANGIO RM CORONARICA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8792,10 +9189,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840917"
+"url": "/p/RMN112"
 },
 {
 "codice": "840871",
+"shortcut": "RMN113",
 "descrizione": "ANGIO RM VASI DEL COLLO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8814,10 +9212,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840871"
+"url": "/p/RMN113"
 },
 {
 "codice": "840872",
+"shortcut": "RMN114",
 "descrizione": "ANGIO RM DISTRETTO TORACICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8836,10 +9235,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840872"
+"url": "/p/RMN114"
 },
 {
 "codice": "840873",
+"shortcut": "RMN115",
 "descrizione": "ANGIO RM ADDOME SUPERIORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8858,10 +9258,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840873"
+"url": "/p/RMN115"
 },
 {
 "codice": "840874",
+"shortcut": "RMN116",
 "descrizione": "ANGIO RM ADDOME INFERIORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8880,10 +9281,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840874"
+"url": "/p/RMN116"
 },
 {
 "codice": "840875",
+"shortcut": "RMN117",
 "descrizione": "ANGIO RM ARTO SUPERIORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8902,10 +9304,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840875"
+"url": "/p/RMN117"
 },
 {
 "codice": "840876",
+"shortcut": "RMN118",
 "descrizione": "ANGIO RM ARTO INFERIORE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8924,10 +9327,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840876"
+"url": "/p/RMN118"
 },
 {
 "codice": "840877",
+"shortcut": "RMN119",
 "descrizione": "ANGIO RM DISTRETTO VASCOLARE INTRACRANICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8946,10 +9350,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840877"
+"url": "/p/RMN119"
 },
 {
 "codice": "840770",
+"shortcut": "RMN120",
 "descrizione": "RM TORACE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -8968,10 +9373,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840770"
+"url": "/p/RMN120"
 },
 {
 "codice": "840779",
+"shortcut": "RMN121",
 "descrizione": "COLANGIO RM",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF038_00_RM_Colangio.pdf",
 "preparazioni": [
@@ -8996,10 +9402,11 @@
 "file": "stampabili/TD-SGI-INF038_00_RM_Colangio.pdf"
 }
 ],
-"url": "/p/840779"
+"url": "/p/RMN121"
 },
 {
 "codice": "840780",
+"shortcut": "RMN122",
 "descrizione": "URO RM",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9018,10 +9425,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840780"
+"url": "/p/RMN122"
 },
 {
 "codice": "840781",
+"shortcut": "RMN123",
 "descrizione": "RM ADDOME INFERIORE CON STUDIO DINAMICO DEL PAVIMENTO PELVICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9040,10 +9448,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840781"
+"url": "/p/RMN123"
 },
 {
 "codice": "840878",
+"shortcut": "RMN124",
 "descrizione": "RM ENDOCAVITARIA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9062,10 +9471,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840878"
+"url": "/p/RMN124"
 },
 {
 "codice": "840879",
+"shortcut": "RMN125",
 "descrizione": "RM PROSTATICA MULTIPARAMETRICA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF044_00_RM_Prostata_Multiparametrica.pdf",
 "preparazioni": [
@@ -9090,10 +9500,11 @@
 "file": "stampabili/TD-SGI-INF044_00_RM_Prostata_Multiparametrica.pdf"
 }
 ],
-"url": "/p/840879"
+"url": "/p/RMN125"
 },
 {
 "codice": "840782",
+"shortcut": "RMN126",
 "descrizione": "RM SELLA TURCICA",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9112,10 +9523,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840782"
+"url": "/p/RMN126"
 },
 {
 "codice": "840783",
+"shortcut": "RMN127",
 "descrizione": "RM ROCCHE PETROSE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9134,10 +9546,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840783"
+"url": "/p/RMN127"
 },
 {
 "codice": "840784",
+"shortcut": "RMN128",
 "descrizione": "RM ORBITE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9156,10 +9569,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840784"
+"url": "/p/RMN128"
 },
 {
 "codice": "840722",
+"shortcut": "RMN129",
 "descrizione": "RM MAMMELLA DX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9184,10 +9598,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840722"
+"url": "/p/RMN129"
 },
 {
 "codice": "840723",
+"shortcut": "RMN130",
 "descrizione": "RM MAMMELLA SX",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9212,10 +9627,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840723"
+"url": "/p/RMN130"
 },
 {
 "codice": "840787",
+"shortcut": "RMN131",
 "descrizione": "RM MAMMARIA BILATERALE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9240,10 +9656,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840787"
+"url": "/p/RMN131"
 },
 {
 "codice": "840880",
+"shortcut": "RMN132",
 "descrizione": "RM PERFUSIONE ASSOCIATA AD ESAME DI BASE",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9262,10 +9679,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840880"
+"url": "/p/RMN132"
 },
 {
 "codice": "840833",
+"shortcut": "RMN133",
 "descrizione": "RM A.T.M. MONOLATERALE DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9284,10 +9702,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840833"
+"url": "/p/RMN133"
 },
 {
 "codice": "840834",
+"shortcut": "RMN134",
 "descrizione": "RM A.T.M. MONOLATERALE SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9306,10 +9725,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840834"
+"url": "/p/RMN134"
 },
 {
 "codice": "840835",
+"shortcut": "RMN135",
 "descrizione": "RM A.T.M. BILATERALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9328,10 +9748,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840835"
+"url": "/p/RMN135"
 },
 {
 "codice": "840836",
+"shortcut": "RMN136",
 "descrizione": "RM MASSICCIO FACCIALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9350,10 +9771,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840836"
+"url": "/p/RMN136"
 },
 {
 "codice": "840837",
+"shortcut": "RMN137",
 "descrizione": "RM DEL MASSICCIO FACCIALE SENZA E CON MDC. STUDIO MULTIDISTRETTUALE DI DUE O PIU' SEGMENTI",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9372,10 +9794,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840837"
+"url": "/p/RMN137"
 },
 {
 "codice": "840924",
+"shortcut": "RMN138",
 "descrizione": "(CINE) RM DEL CUORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF063_00_RM_Cuore_MdC.pdf",
 "preparazioni": [
@@ -9400,10 +9823,11 @@
 "file": "stampabili/TD-SGI-INF063_00_RM_Cuore_MdC.pdf"
 }
 ],
-"url": "/p/840924"
+"url": "/p/RMN138"
 },
 {
 "codice": "840891",
+"shortcut": "RMN139",
 "descrizione": "ANGIO RM DISTRETTO VASCOLARE INTRACRANICO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9422,10 +9846,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840891"
+"url": "/p/RMN139"
 },
 {
 "codice": "840892",
+"shortcut": "RMN140",
 "descrizione": "ANGIO RM VASI DEL COLLO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9444,10 +9869,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840892"
+"url": "/p/RMN140"
 },
 {
 "codice": "840893",
+"shortcut": "RMN141",
 "descrizione": "ANGIO RM DISTRETTO TORACICO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9466,10 +9892,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840893"
+"url": "/p/RMN141"
 },
 {
 "codice": "840919",
+"shortcut": "RMN142",
 "descrizione": "ANGIO RM ADDOME SUPERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9488,10 +9915,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840919"
+"url": "/p/RMN142"
 },
 {
 "codice": "840920",
+"shortcut": "RMN143",
 "descrizione": "ANGIO RM ADDOME INFERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9510,10 +9938,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840920"
+"url": "/p/RMN143"
 },
 {
 "codice": "840921",
+"shortcut": "RMN144",
 "descrizione": "ANGIO RM ARTO SUPERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9532,10 +9961,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840921"
+"url": "/p/RMN144"
 },
 {
 "codice": "840922",
+"shortcut": "RMN145",
 "descrizione": "ANGIO RM ARTO INFERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9554,10 +9984,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840922"
+"url": "/p/RMN145"
 },
 {
 "codice": "840925",
+"shortcut": "RMN146",
 "descrizione": "ANGIO RM MIDOLLO SPINALE CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9576,10 +10007,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840925"
+"url": "/p/RMN146"
 },
 {
 "codice": "840885",
+"shortcut": "RMN147",
 "descrizione": "RM TORACE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9598,10 +10030,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840885"
+"url": "/p/RMN147"
 },
 {
 "codice": "840830",
+"shortcut": "RMN148",
 "descrizione": "RM ADDOME SUPERIORE SENZA E CON CONTRASTO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9620,10 +10053,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840830"
+"url": "/p/RMN148"
 },
 {
 "codice": "840886",
+"shortcut": "RMN149",
 "descrizione": "RM VIE DIGESTIVE CON MDC ORALE (ENTERO RM)",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF040_00_RM_Entero.pdf",
 "preparazioni": [
@@ -9648,10 +10082,11 @@
 "file": "stampabili/TD-SGI-INF040_00_RM_Entero.pdf"
 }
 ],
-"url": "/p/840886"
+"url": "/p/RMN149"
 },
 {
 "codice": "840887",
+"shortcut": "RMN150",
 "descrizione": "RM DELLE VIE DIGESTIVE CON MDC ORALE SENZA E CON MDC VENOSO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9670,10 +10105,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840887"
+"url": "/p/RMN150"
 },
 {
 "codice": "840831",
+"shortcut": "RMN151",
 "descrizione": "RM FEGATO CON MDC ORGANO-SPECIFICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9692,10 +10128,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840831"
+"url": "/p/RMN151"
 },
 {
 "codice": "840896",
+"shortcut": "RMN152",
 "descrizione": "COLANGIO RM. CON STIMOLO FARMACOLOGICO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF039_00_RM_Colangio_MdC.pdf",
 "preparazioni": [
@@ -9720,10 +10157,11 @@
 "file": "stampabili/TD-SGI-INF039_00_RM_Colangio_MdC.pdf"
 }
 ],
-"url": "/p/840896"
+"url": "/p/RMN152"
 },
 {
 "codice": "840923",
+"shortcut": "RMN153",
 "descrizione": "RM ENDOCAVITARIA SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9742,10 +10180,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840923"
+"url": "/p/RMN153"
 },
 {
 "codice": "840379",
+"shortcut": "RMN154",
 "descrizione": "RM PROSTATICA MULTIPARAMETRICA SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF044_00_RM_Prostata_Multiparametrica.pdf",
 "preparazioni": [
@@ -9770,10 +10209,11 @@
 "file": "stampabili/TD-SGI-INF044_00_RM_Prostata_Multiparametrica.pdf"
 }
 ],
-"url": "/p/840379"
+"url": "/p/RMN154"
 },
 {
 "codice": "840915",
+"shortcut": "RMN155",
 "descrizione": "RM DI ENCEFALO E TRONCO ENCEFALICO, GIUNZIONE CRANIO SPINALE SENZA E CON CONTRASTO",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9792,10 +10232,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840915"
+"url": "/p/RMN155"
 },
 {
 "codice": "840838",
+"shortcut": "RMN156",
 "descrizione": "RM SELLA TURCICA SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9814,10 +10255,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840838"
+"url": "/p/RMN156"
 },
 {
 "codice": "840839",
+"shortcut": "RMN157",
 "descrizione": "RM ROCCHE PETROSE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9836,10 +10278,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840839"
+"url": "/p/RMN157"
 },
 {
 "codice": "840840",
+"shortcut": "RMN158",
 "descrizione": "RM ORBITE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9858,10 +10301,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840840"
+"url": "/p/RMN158"
 },
 {
 "codice": "840832",
+"shortcut": "RMN159",
 "descrizione": "RM COLLO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf",
 "preparazioni": [
@@ -9880,10 +10324,11 @@
 "file": "stampabili/TD-SGI-INF041_00_RM_Generico.pdf"
 }
 ],
-"url": "/p/840832"
+"url": "/p/RMN159"
 },
 {
 "codice": "840788",
+"shortcut": "RMN160",
 "descrizione": "RM MAMMELLA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9908,10 +10353,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840788"
+"url": "/p/RMN160"
 },
 {
 "codice": "840789",
+"shortcut": "RMN161",
 "descrizione": "RM MAMMELLA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9936,10 +10382,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840789"
+"url": "/p/RMN161"
 },
 {
 "codice": "840894",
+"shortcut": "RMN162",
 "descrizione": "RM MAMMARIA BILATERALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF041_00_RM_Generico.pdf\nTD-SGI-INF042_00_RM_Mammella.pdf",
 "preparazioni": [
@@ -9964,10 +10411,11 @@
 "file": "stampabili/TD-SGI-INF042_00_RM_Mammella.pdf"
 }
 ],
-"url": "/p/840894"
+"url": "/p/RMN162"
 },
 {
 "codice": "841012",
+"shortcut": "TAC001",
 "descrizione": "TC RACHIDE CERVICALE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -9986,10 +10434,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841012"
+"url": "/p/TAC001"
 },
 {
 "codice": "841013",
+"shortcut": "TAC002",
 "descrizione": "TC RACHIDE DORSALE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10008,10 +10457,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841013"
+"url": "/p/TAC002"
 },
 {
 "codice": "841014",
+"shortcut": "TAC003",
 "descrizione": "TC RACHIDE LOMBOSACRALE E DEL SACROCOCCIGE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10030,10 +10480,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841014"
+"url": "/p/TAC003"
 },
 {
 "codice": "841044",
+"shortcut": "TAC004",
 "descrizione": "TC SPALLA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10052,10 +10503,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841044"
+"url": "/p/TAC004"
 },
 {
 "codice": "841045",
+"shortcut": "TAC005",
 "descrizione": "TC SPALLA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10074,10 +10526,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841045"
+"url": "/p/TAC005"
 },
 {
 "codice": "841046",
+"shortcut": "TAC006",
 "descrizione": "TC BRACCIO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10096,10 +10549,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841046"
+"url": "/p/TAC006"
 },
 {
 "codice": "841047",
+"shortcut": "TAC007",
 "descrizione": "TC BRACCIO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10118,10 +10572,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841047"
+"url": "/p/TAC007"
 },
 {
 "codice": "841048",
+"shortcut": "TAC008",
 "descrizione": "TC GOMITO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10140,10 +10595,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841048"
+"url": "/p/TAC008"
 },
 {
 "codice": "841049",
+"shortcut": "TAC009",
 "descrizione": "TC GOMITO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10162,10 +10618,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841049"
+"url": "/p/TAC009"
 },
 {
 "codice": "841050",
+"shortcut": "TAC010",
 "descrizione": "TC AVAMBRACCIO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10184,10 +10641,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841050"
+"url": "/p/TAC010"
 },
 {
 "codice": "841051",
+"shortcut": "TAC011",
 "descrizione": "TC AVAMBRACCIO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10206,10 +10664,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841051"
+"url": "/p/TAC011"
 },
 {
 "codice": "841015",
+"shortcut": "TAC012",
 "descrizione": "TC POLSO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10228,10 +10687,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841015"
+"url": "/p/TAC012"
 },
 {
 "codice": "841027",
+"shortcut": "TAC013",
 "descrizione": "TC CUORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10250,10 +10710,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841027"
+"url": "/p/TAC013"
 },
 {
 "codice": "841028",
+"shortcut": "TAC014",
 "descrizione": "CALCIUM SCORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10272,10 +10733,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841028"
+"url": "/p/TAC014"
 },
 {
 "codice": "841029",
+"shortcut": "TAC015",
 "descrizione": "TC DEL TORACE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10294,10 +10756,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841029"
+"url": "/p/TAC015"
 },
 {
 "codice": "841030",
+"shortcut": "TAC016",
 "descrizione": "TC DEL TORACE AD ALTA RISOLUZIONE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10316,10 +10779,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841030"
+"url": "/p/TAC016"
 },
 {
 "codice": "841019",
+"shortcut": "TAC017",
 "descrizione": "TC DELL' ADDOME SUPERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10338,10 +10802,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841019"
+"url": "/p/TAC017"
 },
 {
 "codice": "841020",
+"shortcut": "TAC018",
 "descrizione": "TC DELL' ADDOME INFERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10360,10 +10825,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841020"
+"url": "/p/TAC018"
 },
 {
 "codice": "841010",
+"shortcut": "TAC019",
 "descrizione": "TC DELL' ADDOME COMPLETO",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10382,10 +10848,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841010"
+"url": "/p/TAC019"
 },
 {
 "codice": "841016",
+"shortcut": "TAC020",
 "descrizione": "TC POLSO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10404,10 +10871,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841016"
+"url": "/p/TAC020"
 },
 {
 "codice": "841017",
+"shortcut": "TAC021",
 "descrizione": "TC MANO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10426,10 +10894,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841017"
+"url": "/p/TAC021"
 },
 {
 "codice": "841018",
+"shortcut": "TAC022",
 "descrizione": "TC MANO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10448,10 +10917,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841018"
+"url": "/p/TAC022"
 },
 {
 "codice": "841021",
+"shortcut": "TAC023",
 "descrizione": "TC BACINO E ARTICOLAZIONI SACROILIACHE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10470,10 +10940,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841021"
+"url": "/p/TAC023"
 },
 {
 "codice": "841035",
+"shortcut": "TAC024",
 "descrizione": "TC ANCA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10492,10 +10963,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841035"
+"url": "/p/TAC024"
 },
 {
 "codice": "841036",
+"shortcut": "TAC025",
 "descrizione": "TC ANCA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10514,10 +10986,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841036"
+"url": "/p/TAC025"
 },
 {
 "codice": "841037",
+"shortcut": "TAC026",
 "descrizione": "TC COSCIA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10536,10 +11009,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841037"
+"url": "/p/TAC026"
 },
 {
 "codice": "841038",
+"shortcut": "TAC027",
 "descrizione": "TC COSCIA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10558,10 +11032,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841038"
+"url": "/p/TAC027"
 },
 {
 "codice": "841039",
+"shortcut": "TAC028",
 "descrizione": "TC GINOCCHIO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10580,10 +11055,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841039"
+"url": "/p/TAC028"
 },
 {
 "codice": "841040",
+"shortcut": "TAC029",
 "descrizione": "TC GINOCCHIO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10602,10 +11078,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841040"
+"url": "/p/TAC029"
 },
 {
 "codice": "841041",
+"shortcut": "TAC030",
 "descrizione": "TC GAMBA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10624,10 +11101,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841041"
+"url": "/p/TAC030"
 },
 {
 "codice": "841042",
+"shortcut": "TAC031",
 "descrizione": "TC GAMBA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10646,10 +11124,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841042"
+"url": "/p/TAC031"
 },
 {
 "codice": "841022",
+"shortcut": "TAC032",
 "descrizione": "TC CAVIGLIA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10668,10 +11147,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841022"
+"url": "/p/TAC032"
 },
 {
 "codice": "841023",
+"shortcut": "TAC033",
 "descrizione": "TC CAVIGLIA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10690,10 +11170,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841023"
+"url": "/p/TAC033"
 },
 {
 "codice": "841024",
+"shortcut": "TAC034",
 "descrizione": "TC PIEDE DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10712,10 +11193,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841024"
+"url": "/p/TAC034"
 },
 {
 "codice": "841025",
+"shortcut": "TAC035",
 "descrizione": "TC PIEDE SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10734,10 +11216,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841025"
+"url": "/p/TAC035"
 },
 {
 "codice": "841043",
+"shortcut": "TAC036",
 "descrizione": "STUDIO TC DIRETTO MORFOMETRICO O ROTAZIONALE DELL'ARTO INFERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10756,10 +11239,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841043"
+"url": "/p/TAC036"
 },
 {
 "codice": "841031",
+"shortcut": "TAC037",
 "descrizione": "TC CRANIO-ENCEFALO",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10778,10 +11262,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841031"
+"url": "/p/TAC037"
 },
 {
 "codice": "841032",
+"shortcut": "TAC038",
 "descrizione": "TC SELLA TURCICA",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10800,10 +11285,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841032"
+"url": "/p/TAC038"
 },
 {
 "codice": "841033",
+"shortcut": "TAC039",
 "descrizione": "TC ORBITE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10822,10 +11308,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841033"
+"url": "/p/TAC039"
 },
 {
 "codice": "840973",
+"shortcut": "TAC040",
 "descrizione": "TC RACHIDE CERVICALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10844,10 +11331,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840973"
+"url": "/p/TAC040"
 },
 {
 "codice": "840974",
+"shortcut": "TAC041",
 "descrizione": "TC RACHIDE DORSALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10866,10 +11354,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840974"
+"url": "/p/TAC041"
 },
 {
 "codice": "840975",
+"shortcut": "TAC042",
 "descrizione": "TC RACHIDE LOMBOSACRALE E DEL SACRO COCCIGE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10888,10 +11377,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840975"
+"url": "/p/TAC042"
 },
 {
 "codice": "840941",
+"shortcut": "TAC043",
 "descrizione": "TC DEL CUORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf\nTD-SGI-INF052_00_TAC_Cuore.pdf",
 "preparazioni": [
@@ -10916,10 +11406,11 @@
 "file": "stampabili/TD-SGI-INF052_00_TAC_Cuore.pdf"
 }
 ],
-"url": "/p/840941"
+"url": "/p/TAC043"
 },
 {
 "codice": "840942",
+"shortcut": "TAC044",
 "descrizione": "TC CORONAROGRAFIA",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf\nTD-SGI-INF052_00_TAC_Cuore.pdf",
 "preparazioni": [
@@ -10944,10 +11435,11 @@
 "file": "stampabili/TD-SGI-INF052_00_TAC_Cuore.pdf"
 }
 ],
-"url": "/p/840942"
+"url": "/p/TAC044"
 },
 {
 "codice": "840938",
+"shortcut": "TAC045",
 "descrizione": "ANGIO TC DEI VASI INTRACRANICI E DEL COLLO [CAROTIDI]",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10966,10 +11458,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840938"
+"url": "/p/TAC045"
 },
 {
 "codice": "840932",
+"shortcut": "TAC046",
 "descrizione": "ANGIO TC DI AORTA ADDOMINALE E ARTI INFERIORI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -10988,10 +11481,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840932"
+"url": "/p/TAC046"
 },
 {
 "codice": "840943",
+"shortcut": "TAC047",
 "descrizione": "ANGIO TC DELLE ARTERIE RENALI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11010,10 +11504,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840943"
+"url": "/p/TAC047"
 },
 {
 "codice": "840944",
+"shortcut": "TAC048",
 "descrizione": "ANGIO TC DI AORTA ADDOMINALE E ARTERIE RENALI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11032,10 +11527,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840944"
+"url": "/p/TAC048"
 },
 {
 "codice": "840945",
+"shortcut": "TAC049",
 "descrizione": "ANGIO TC DEL CIRCOLO POLMONARE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11054,10 +11550,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840945"
+"url": "/p/TAC049"
 },
 {
 "codice": "840946",
+"shortcut": "TAC050",
 "descrizione": "ANGIO TC DEI VASI INTRACRANICI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11076,10 +11573,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840946"
+"url": "/p/TAC050"
 },
 {
 "codice": "840947",
+"shortcut": "TAC051",
 "descrizione": "ANGIO TC DELL'AORTA TORACICA",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11098,10 +11596,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840947"
+"url": "/p/TAC051"
 },
 {
 "codice": "840948",
+"shortcut": "TAC052",
 "descrizione": "ANGIO TC DELL'AORTA ADDOMINALE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11120,10 +11619,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840948"
+"url": "/p/TAC052"
 },
 {
 "codice": "840949",
+"shortcut": "TAC053",
 "descrizione": "ANGIO TC DELL'AORTA TORACO ADDOMINALE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11142,10 +11642,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840949"
+"url": "/p/TAC053"
 },
 {
 "codice": "840976",
+"shortcut": "TAC054",
 "descrizione": "TC DEL TORACE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11164,10 +11665,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840976"
+"url": "/p/TAC054"
 },
 {
 "codice": "840971",
+"shortcut": "TAC055",
 "descrizione": "TC DELL' ADDOME SUPERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11186,10 +11688,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840971"
+"url": "/p/TAC055"
 },
 {
 "codice": "840972",
+"shortcut": "TAC056",
 "descrizione": "TC DELL' ADDOME INFERIORE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11208,10 +11711,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840972"
+"url": "/p/TAC056"
 },
 {
 "codice": "840935",
+"shortcut": "TAC057",
 "descrizione": "TC DELL' ADDOME COMPLETO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11230,10 +11734,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840935"
+"url": "/p/TAC057"
 },
 {
 "codice": "840936",
+"shortcut": "TAC058",
 "descrizione": "TC COLON [COLONSCOPIA VIRTUALE]",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf\nTD-SGI-INF051_00_TAC_Colonscopia_Virtuale.pdf",
 "preparazioni": [
@@ -11258,10 +11763,11 @@
 "file": "stampabili/TD-SGI-INF051_00_TAC_Colonscopia_Virtuale.pdf"
 }
 ],
-"url": "/p/840936"
+"url": "/p/TAC058"
 },
 {
 "codice": "840934",
+"shortcut": "TAC059",
 "descrizione": "TC [CLISMA TC] TENUE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11280,10 +11786,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840934"
+"url": "/p/TAC059"
 },
 {
 "codice": "840940",
+"shortcut": "TAC060",
 "descrizione": "TC FEGATO MULTIFASICA",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11302,10 +11809,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840940"
+"url": "/p/TAC060"
 },
 {
 "codice": "840937",
+"shortcut": "TAC061",
 "descrizione": "TC UROGRAFIA [URO-TC]",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11324,10 +11832,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840937"
+"url": "/p/TAC061"
 },
 {
 "codice": "840978",
+"shortcut": "TAC062",
 "descrizione": "TC CRANIO-ENCEFALO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11346,10 +11855,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840978"
+"url": "/p/TAC062"
 },
 {
 "codice": "840979",
+"shortcut": "TAC063",
 "descrizione": "TC SELLA TURCICA SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11368,10 +11878,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840979"
+"url": "/p/TAC063"
 },
 {
 "codice": "841026",
+"shortcut": "TAC064",
 "descrizione": "TC BACINO E ARTICOLAZIONI SACROILIACHE CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11390,10 +11901,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841026"
+"url": "/p/TAC064"
 },
 {
 "codice": "840980",
+"shortcut": "TAC065",
 "descrizione": "TC ORBITE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11412,10 +11924,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840980"
+"url": "/p/TAC065"
 },
 {
 "codice": "841055",
+"shortcut": "TAC066",
 "descrizione": "TC DENTALSCAN ARCATA SUPERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11434,10 +11947,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841055"
+"url": "/p/TAC066"
 },
 {
 "codice": "841056",
+"shortcut": "TAC067",
 "descrizione": "TC DENTALSCAN ARCATA INFERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11456,10 +11970,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841056"
+"url": "/p/TAC067"
 },
 {
 "codice": "841052",
+"shortcut": "TAC068",
 "descrizione": "TC DENTALSCAN ARCATA SUPERIORE E INFERIORE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11478,10 +11993,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841052"
+"url": "/p/TAC068"
 },
 {
 "codice": "840953",
+"shortcut": "TAC069",
 "descrizione": "ARTRO-TC (IN SEDE SPECIFICA NON ALTRIMENTI CATALOGATA)",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11500,10 +12016,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840953"
+"url": "/p/TAC069"
 },
 {
 "codice": "840954",
+"shortcut": "TAC070",
 "descrizione": "ARTRO-TC SPALLA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11522,10 +12039,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840954"
+"url": "/p/TAC070"
 },
 {
 "codice": "840955",
+"shortcut": "TAC071",
 "descrizione": "ARTRO-TC SPALLA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11544,10 +12062,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840955"
+"url": "/p/TAC071"
 },
 {
 "codice": "840956",
+"shortcut": "TAC072",
 "descrizione": "ARTRO-TC GOMITO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11566,10 +12085,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840956"
+"url": "/p/TAC072"
 },
 {
 "codice": "840957",
+"shortcut": "TAC073",
 "descrizione": "ARTRO-TC GOMITO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11588,10 +12108,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840957"
+"url": "/p/TAC073"
 },
 {
 "codice": "840958",
+"shortcut": "TAC074",
 "descrizione": "ARTRO-TC POLSO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11610,10 +12131,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840958"
+"url": "/p/TAC074"
 },
 {
 "codice": "840959",
+"shortcut": "TAC075",
 "descrizione": "ARTRO-TC POLSO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11632,10 +12154,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840959"
+"url": "/p/TAC075"
 },
 {
 "codice": "840960",
+"shortcut": "TAC076",
 "descrizione": "ARTRO-TC ANCA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11654,10 +12177,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840960"
+"url": "/p/TAC076"
 },
 {
 "codice": "840961",
+"shortcut": "TAC077",
 "descrizione": "ARTRO-TC ANCA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11676,10 +12200,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840961"
+"url": "/p/TAC077"
 },
 {
 "codice": "840962",
+"shortcut": "TAC078",
 "descrizione": "ARTRO-TC GINOCCHIO DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11698,10 +12223,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840962"
+"url": "/p/TAC078"
 },
 {
 "codice": "840963",
+"shortcut": "TAC079",
 "descrizione": "ARTRO-TC GINOCCHIO SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11720,10 +12246,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840963"
+"url": "/p/TAC079"
 },
 {
 "codice": "840964",
+"shortcut": "TAC080",
 "descrizione": "ARTRO-TC CAVIGLIA DX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11742,10 +12269,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840964"
+"url": "/p/TAC080"
 },
 {
 "codice": "840965",
+"shortcut": "TAC081",
 "descrizione": "ARTRO-TC CAVIGLIA SX",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11764,10 +12292,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840965"
+"url": "/p/TAC081"
 },
 {
 "codice": "840969",
+"shortcut": "TAC082",
 "descrizione": "TC GHIANDOLE SALIVARI [SCIALO TC]",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11786,10 +12315,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840969"
+"url": "/p/TAC082"
 },
 {
 "codice": "840970",
+"shortcut": "TAC083",
 "descrizione": "TC MASSICCIO FACCIALE SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11808,10 +12338,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840970"
+"url": "/p/TAC083"
 },
 {
 "codice": "840950",
+"shortcut": "TAC084",
 "descrizione": "ANGIO TC DEGLI ARTI INFERIORI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11830,10 +12361,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840950"
+"url": "/p/TAC084"
 },
 {
 "codice": "840951",
+"shortcut": "TAC085",
 "descrizione": "ANGIO TC DEI VASI DEL COLLO [CAROTIDI]",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11852,10 +12384,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840951"
+"url": "/p/TAC085"
 },
 {
 "codice": "840952",
+"shortcut": "TAC086",
 "descrizione": "ANGIO TC DEGLI ARTI SUPERIORI",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11874,10 +12407,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840952"
+"url": "/p/TAC086"
 },
 {
 "codice": "840997",
+"shortcut": "TAC087",
 "descrizione": "TC SPALLA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11896,10 +12430,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840997"
+"url": "/p/TAC087"
 },
 {
 "codice": "840998",
+"shortcut": "TAC088",
 "descrizione": "TC SPALLA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11918,10 +12453,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840998"
+"url": "/p/TAC088"
 },
 {
 "codice": "840999",
+"shortcut": "TAC089",
 "descrizione": "TC BRACCIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11940,10 +12476,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840999"
+"url": "/p/TAC089"
 },
 {
 "codice": "841000",
+"shortcut": "TAC090",
 "descrizione": "TC BRACCIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11962,10 +12499,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841000"
+"url": "/p/TAC090"
 },
 {
 "codice": "841001",
+"shortcut": "TAC091",
 "descrizione": "TC GOMITO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -11984,10 +12522,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841001"
+"url": "/p/TAC091"
 },
 {
 "codice": "841002",
+"shortcut": "TAC092",
 "descrizione": "TC GOMITO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12006,10 +12545,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841002"
+"url": "/p/TAC092"
 },
 {
 "codice": "841003",
+"shortcut": "TAC093",
 "descrizione": "TC AVAMBRACCIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12028,10 +12568,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841003"
+"url": "/p/TAC093"
 },
 {
 "codice": "841004",
+"shortcut": "TAC094",
 "descrizione": "TC AVAMBRACCIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12050,10 +12591,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841004"
+"url": "/p/TAC094"
 },
 {
 "codice": "841005",
+"shortcut": "TAC095",
 "descrizione": "TC POLSO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12072,10 +12614,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841005"
+"url": "/p/TAC095"
 },
 {
 "codice": "841006",
+"shortcut": "TAC096",
 "descrizione": "TC POLSO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12094,10 +12637,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841006"
+"url": "/p/TAC096"
 },
 {
 "codice": "841007",
+"shortcut": "TAC097",
 "descrizione": "TC MANO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12116,10 +12660,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841007"
+"url": "/p/TAC097"
 },
 {
 "codice": "841008",
+"shortcut": "TAC098",
 "descrizione": "TC MANO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12138,10 +12683,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841008"
+"url": "/p/TAC098"
 },
 {
 "codice": "840985",
+"shortcut": "TAC099",
 "descrizione": "TC ANCA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12160,10 +12706,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840985"
+"url": "/p/TAC099"
 },
 {
 "codice": "840986",
+"shortcut": "TAC100",
 "descrizione": "TC ANCA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12182,10 +12729,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840986"
+"url": "/p/TAC100"
 },
 {
 "codice": "840987",
+"shortcut": "TAC101",
 "descrizione": "TC COSCIA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12204,10 +12752,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840987"
+"url": "/p/TAC101"
 },
 {
 "codice": "840988",
+"shortcut": "TAC102",
 "descrizione": "TC COSCIA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12226,10 +12775,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840988"
+"url": "/p/TAC102"
 },
 {
 "codice": "840989",
+"shortcut": "TAC103",
 "descrizione": "TC GINOCCHIO DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12248,10 +12798,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840989"
+"url": "/p/TAC103"
 },
 {
 "codice": "840990",
+"shortcut": "TAC104",
 "descrizione": "TC GINOCCHIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12270,10 +12821,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840990"
+"url": "/p/TAC104"
 },
 {
 "codice": "840991",
+"shortcut": "TAC105",
 "descrizione": "TC GAMBA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12292,10 +12844,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840991"
+"url": "/p/TAC105"
 },
 {
 "codice": "840992",
+"shortcut": "TAC106",
 "descrizione": "TC GAMBA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12314,10 +12867,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840992"
+"url": "/p/TAC106"
 },
 {
 "codice": "840993",
+"shortcut": "TAC107",
 "descrizione": "TC CAVIGLIA DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12336,10 +12890,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840993"
+"url": "/p/TAC107"
 },
 {
 "codice": "840994",
+"shortcut": "TAC108",
 "descrizione": "TC CAVIGLIA SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12358,10 +12913,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840994"
+"url": "/p/TAC108"
 },
 {
 "codice": "840995",
+"shortcut": "TAC109",
 "descrizione": "TC PIEDE DX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12380,10 +12936,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840995"
+"url": "/p/TAC109"
 },
 {
 "codice": "840996",
+"shortcut": "TAC110",
 "descrizione": "TC PIEDE SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12402,10 +12959,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840996"
+"url": "/p/TAC110"
 },
 {
 "codice": "840981",
+"shortcut": "TAC111",
 "descrizione": "TC ORECCHIO DX SENZA CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12424,10 +12982,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840981"
+"url": "/p/TAC111"
 },
 {
 "codice": "840982",
+"shortcut": "TAC112",
 "descrizione": "TC ORECCHIO SX SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12446,10 +13005,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840982"
+"url": "/p/TAC112"
 },
 {
 "codice": "840983",
+"shortcut": "TAC113",
 "descrizione": "TC BILATERALE DELL' ORECCHIO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12468,10 +13028,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840983"
+"url": "/p/TAC113"
 },
 {
 "codice": "840984",
+"shortcut": "TAC114",
 "descrizione": "TC COLLO SENZA E CON MDC",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12490,10 +13051,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/840984"
+"url": "/p/TAC114"
 },
 {
 "codice": "841034",
+"shortcut": "TAC115",
 "descrizione": "TC COLLO",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12512,10 +13074,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841034"
+"url": "/p/TAC115"
 },
 {
 "codice": "841072",
+"shortcut": "TAC116",
 "descrizione": "TC SEDAZIONE",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12534,10 +13097,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/841072"
+"url": "/p/TAC116"
 },
 {
 "codice": "847047",
+"shortcut": "TAC117",
 "descrizione": "CONE BEAM ARCATA DENTARIA SUPERIORE (CBCT)",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12556,10 +13120,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/847047"
+"url": "/p/TAC117"
 },
 {
 "codice": "847048",
+"shortcut": "TAC118",
 "descrizione": "CONE BEAM ARCATA DENTARIA INFERIORE (CBCT)",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12578,10 +13143,11 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/847048"
+"url": "/p/TAC118"
 },
 {
 "codice": "847049",
+"shortcut": "TAC119",
 "descrizione": "CONE BEAM ARCATA DENTARIE SUPERIORE E INFERIORE (CBCT)",
 "preparazione_raw": "TD-SGI-INF054_00_TAC_Generico.pdf",
 "preparazioni": [
@@ -12600,7 +13166,7 @@
 "file": "stampabili/TD-SGI-INF054_00_TAC_Generico.pdf"
 }
 ],
-"url": "/p/847049"
+"url": "/p/TAC119"
 }
 ],
 "colonne": {

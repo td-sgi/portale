@@ -31,8 +31,8 @@ static/                 index.html (cruscotto), preparazioni.html, shell.js (sid
 | `/doc/TD-SGI-PRO042` | Link stabile al PDF corrente del documento (senza revisione nel link) |
 | `/m/TD-SGI-INF020` | Link stabile alla versione stampabile corrente del modulo/informativa |
 | `/preparazioni` | Pagina pazienti: prestazioni e relative preparazioni |
-| `/p/<codice prestazione>` | Link da mettere in GIPO: apre il PDF della preparazione (se la prestazione ne ha piu' di una, mostra l'elenco) |
-| `/p/<codice prestazione>.pdf` | Lo stesso, forzando il PDF |
+| `/p/<codice shortcut>` (es. `/p/ECO003`) | Link da mettere in GIPO: apre il PDF della preparazione (se la prestazione ne ha piu' di una, mostra l'elenco). Il codice GIPO numerico e' accettato come alias |
+| `/p/<codice shortcut>.pdf` | Lo stesso, forzando il PDF |
 | `/stampabili/<file>.pdf`, `/docs/<area>/<file>.pdf` | File |
 | `/api/preparazioni`, `/api/informative`, `/api/meta`, `/healthz` | Dati |
 
@@ -72,4 +72,4 @@ Requisiti sul PC: Python 3 con `pip install openpyxl pymupdf`, Git. Se il file E
 
 ## Mappa delle preparazioni
 
-`build_site.py` legge il primo foglio del file Excel delle prestazioni, trova la colonna il cui nome contiene "Preparaz" e la colonna del codice prestazione (nome contenente "Cod"). Nella colonna Preparazioni accetta uno o piu' riferimenti a documenti SGI separati da `;` o `,` (es. `INF020`, `TD-SGI-INF020_00`, `INF020; MOD004`). Il link pubblicato punta alla versione stampabile (senza cover) se esiste, altrimenti al PDF di distribuzione. I riferimenti non risolti finiscono in `data/preparazioni.json` alla voce `non_risolte` e vanno corretti nell'Excel.
+`build_site.py` legge il primo foglio del file Excel delle prestazioni, trova la colonna il cui nome contiene "Preparaz", la colonna del codice GIPO (nome contenente "Cod") e la colonna "Codice shortcut", che e' la chiave dei link pubblici `/p/` (decisione AD 02/10/2026): deve essere presente e univoca, altrimenti la generazione si ferma. Nella colonna Preparazioni accetta uno o piu' riferimenti a documenti SGI separati da `;` o `,` (es. `INF020`, `TD-SGI-INF020_00`, `INF020; MOD004`). Il link pubblicato punta alla versione stampabile (senza cover) se esiste, altrimenti al PDF di distribuzione. I riferimenti non risolti finiscono in `data/preparazioni.json` alla voce `non_risolte` e vanno corretti nell'Excel.

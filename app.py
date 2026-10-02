@@ -4,7 +4,7 @@ Portale SGI Toscana Diagnostica - server web (Flask).
 
 Rotte pubbliche (sempre aperte, pensate per i pazienti e per i link SMS di GIPO):
   /preparazioni                 elenco prestazioni con il modulo di preparazione
-  /p/<codice-prestazione>       link stabile per prestazione: apre il PDF della preparazione
+  /p/<codice-shortcut>          link stabile per prestazione (es. /p/ECO003): apre il PDF della preparazione
   /p/<codice-prestazione>.pdf   lo stesso PDF servito direttamente (inline)
   /stampabili/<file>.pdf        versioni stampabili senza cover dei MOD/DEX/INF
   /m/<TD-SGI-CODICE>            link stabile per modulo (senza revisione): apre la versione stampabile
@@ -51,7 +51,11 @@ def slug(s):
 
 for r in PREP.get('righe', []):
     if r.get('link'):
-        PREP_BY_SLUG[slug(r['codice']).lower()] = r
+        # chiave pubblica: codice shortcut (es. ECO003); il codice GIPO numerico resta accettato come alias
+        PREP_BY_SLUG[slug(r.get('shortcut') or r['codice']).lower()] = r
+for r in PREP.get('righe', []):
+    if r.get('link'):
+        PREP_BY_SLUG.setdefault(slug(r['codice']).lower(), r)
 
 
 def protected(fn):
@@ -89,8 +93,8 @@ def preparazioni():
 
 @app.route('/p/<codice>')
 def prestazione(codice):
-    """Link stabile per GIPO: /p/<codice prestazione>. Se la prestazione ha un solo modulo lo apre,
-    se ne ha piu' di uno mostra la pagina con l'elenco."""
+    """Link stabile per GIPO: /p/<codice shortcut> (es. /p/ECO003). Se la prestazione ha un solo modulo lo apre,
+    se ne ha piu' di uno mostra la pagina con l'elenco. Il codice GIPO numerico e' accettato come alias."""
     want_pdf = codice.lower().endswith('.pdf')
     key = slug(codice[:-4] if want_pdf else codice).lower()
     row = PREP_BY_SLUG.get(key)
@@ -102,7 +106,7 @@ def prestazione(codice):
         if f.startswith('docs/'):   # il file vive nell'area documentale: lo serviamo senza password
             return _pdf_headers(make_response(send_from_directory(os.path.join(BASE, 'docs'), f[5:])))
         return redirect('/' + f, 302)
-    return redirect('/preparazioni?codice=' + row['codice'], 302)
+    return redirect('/preparazioni?codice=' + (row.get('shortcut') or row['codice']), 302)
 
 
 @app.route('/m/<code>')
