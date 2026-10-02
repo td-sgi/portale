@@ -26,6 +26,16 @@ app = Flask(__name__, static_folder=os.path.join(BASE, 'static'), static_url_pat
 
 SGI_USER = os.environ.get('SGI_USER', 'sgi')
 SGI_PASSWORD = os.environ.get('SGI_PASSWORD', '')
+# Dominio ufficiale (es. sgi.toscanadiagnostica.it). Se impostato, ogni richiesta arrivata su un altro host
+# (es. td-sgi-portale.onrender.com) viene reindirizzata in modo permanente allo stesso percorso sul dominio ufficiale.
+CANONICAL_HOST = os.environ.get('CANONICAL_HOST', '').strip().lower()
+
+
+@app.before_request
+def _canonical():
+    if CANONICAL_HOST and request.host.lower() != CANONICAL_HOST and request.path != '/healthz':
+        return redirect('https://' + CANONICAL_HOST + request.full_path.rstrip('?'), 301)
+
 
 
 def _load(name):
@@ -85,6 +95,14 @@ def _lookup(code):
     return BY_BASE.get(c) or BY_BASE.get(c.upper()) or BY_BASE.get(c.upper()[:-1] + c[-1].lower())
 
 
+def _serve(relpath):
+    """Consegna un file del repo ('stampabili/x.pdf' o 'docs/area/x.pdf') senza redirect: l'URL resta quello richiesto."""
+    folder, _, fname = relpath.partition('/')
+    if folder not in ('stampabili', 'docs'):
+        abort(404)
+    return _pdf_headers(make_response(send_from_directory(os.path.join(BASE, folder), fname)))
+
+
 # ---------- Area pubblica ----------
 @app.route('/preparazioni')
 def preparazioni():
@@ -102,10 +120,7 @@ def prestazione(codice):
         return redirect('/preparazioni?codice=' + codice, 302)
     links = row['link']
     if len(links) == 1 or want_pdf:
-        f = links[0]['file']
-        if f.startswith('docs/'):   # il file vive nell'area documentale: lo serviamo senza password
-            return _pdf_headers(make_response(send_from_directory(os.path.join(BASE, 'docs'), f[5:])))
-        return redirect('/' + f, 302)
+        return _serve(links[0]['file'])      # il PDF viene servito sotto /p/<codice>: l'indirizzo non cambia
     return redirect('/preparazioni?codice=' + (row.get('shortcut') or row['codice']), 302)
 
 
@@ -116,9 +131,9 @@ def modulo(code):
     if not d:
         abort(404)
     if d.get('stampabile'):
-        return redirect('/stampabili/' + d['stampabile'], 302)
+        return _serve('stampabili/' + d['stampabile'])
     if d.get('pdf'):
-        return redirect('/docs/' + d['pdf'], 302)
+        return _serve('docs/' + d['pdf'])
     abort(404)
 
 
@@ -168,7 +183,7 @@ def doc(code):
     d = _lookup(code)
     if not d or not d.get('pdf'):
         abort(404)
-    return redirect('/docs/' + d['pdf'], 302)
+    return _serve('docs/' + d['pdf'])
 
 
 @app.route('/docs/<path:fname>')

@@ -36,7 +36,7 @@ static/                 index.html (cruscotto), preparazioni.html, shell.js (sid
 | `/stampabili/<file>.pdf`, `/docs/<area>/<file>.pdf` | File |
 | `/api/preparazioni`, `/api/informative`, `/api/meta`, `/healthz` | Dati |
 
-I link `/doc/`, `/m/` e `/p/` non contengono la revisione: quando un documento sale di revisione il link resta valido e apre il file nuovo. Non cambiare mai i codici prestazione in GIPO: cambiano solo i PDF dietro.
+I link `/doc/`, `/m/` e `/p/` non contengono la revisione: quando un documento sale di revisione il link resta valido e apre il file nuovo. Il PDF viene consegnato direttamente sotto quell'indirizzo (nessun redirect): nella barra del browser resta `sgi.toscanadiagnostica.it/p/ECO003`. Non cambiare mai i codici prestazione in GIPO: cambiano solo i PDF dietro.
 
 ## Funzioni del cruscotto
 
@@ -61,7 +61,7 @@ Per impostazione predefinita tutto e' pubblico (decisione AD 01/10/2026). Impost
    git push -u origin main
    ```
 3. Su Render: **New + > Blueprint**, selezionare il repo. Render legge `render.yaml` e crea il servizio `td-sgi-portale`. Se si preferisce creare il servizio a mano: Web Service, runtime Python, build `pip install -r requirements.txt`, start `gunicorn app:app --workers 2 --threads 4 --timeout 60`, health check `/healthz`.
-4. Al termine Render fornisce l'indirizzo `https://td-sgi-portale.onrender.com`. Su Settings > Custom Domains si puo' collegare un sottodominio aziendale (es. `sgi.toscanadiagnostica.it`) con un record CNAME: conviene farlo prima di distribuire i link ai pazienti.
+4. Al termine Render fornisce l'indirizzo `https://td-sgi-portale.onrender.com`. Il dominio ufficiale e' `sgi.toscanadiagnostica.it`: su Settings > Custom Domains si aggiunge il dominio e nel DNS aziendale si crea un record CNAME `sgi` verso `td-sgi-portale.onrender.com` (non un inoltro/redirect: con il CNAME il browser resta sempre sul dominio aziendale). La variabile `CANONICAL_HOST=sgi.toscanadiagnostica.it` fa reindirizzare al dominio ufficiale chiunque arrivi sull'indirizzo onrender; lasciarla vuota finche' il DNS non e' attivo, altrimenti il portale non e' raggiungibile.
 5. Piano Render: con il piano Free il servizio si addormenta dopo 15 minuti di inattivita' e il primo accesso richiede circa 30 secondi. Per i link SMS ai pazienti serve il piano Starter (sempre acceso).
 
 ## Aggiornamento a ogni emissione SGI (routine, passo 11)

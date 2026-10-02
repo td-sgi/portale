@@ -4,7 +4,7 @@ services:
   - type: web
     name: td-sgi-portale
     runtime: python
-    plan: free            # 750 ore/mese; si addormenta dopo 15 min di inattivita' (primo accesso lento ~30 s). Per il link SMS ai pazienti valutare il piano Starter.
+    plan: starter         # sempre acceso: necessario per i link SMS ai pazienti. (free = si addormenta dopo 15 min, primo accesso ~30 s)
     region: frankfurt
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app --workers 2 --threads 4 --timeout 60
@@ -15,5 +15,7 @@ services:
         value: 3.12.6
       - key: SGI_USER
         value: sgi
+      - key: CANONICAL_HOST
+        value: sgi.toscanadiagnostica.it   # dominio ufficiale: chi arriva su *.onrender.com viene reindirizzato qui. Lasciare vuoto finche' il DNS non e' attivo.
       - key: SGI_PASSWORD
         sync: false       # lasciare vuota = portale interamente pubblico (scelta AD 01/10/2026). Impostarla = area documentale protetta da password, Preparazioni sempre pubbliche.
