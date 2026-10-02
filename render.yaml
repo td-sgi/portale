@@ -16,6 +16,6 @@ services:
       - key: SGI_USER
         value: sgi
       - key: CANONICAL_HOST
-        value: sgi.toscanadiagnostica.it   # dominio ufficiale: chi arriva su *.onrender.com viene reindirizzato qui. Lasciare vuoto finche' il DNS non e' attivo.
+        sync: false            # impostare a mano in Render > Environment (sgi.toscanadiagnostica.it) SOLO dopo che il dominio risulta Verified; se attivo prima crea un loop di redirect
       - key: SGI_PASSWORD
         sync: false       # lasciare vuota = portale interamente pubblico (scelta AD 01/10/2026). Impostarla = area documentale protetta da password, Preparazioni sempre pubbliche.
