@@ -30,7 +30,7 @@
       <div class="card mt">
         <div class="bd">
           <div class="filters">
-            <label class="f" style="flex:1 1 360px">Cerca
+            <label class="f" style="flex:1 1 340px">Cerca
               <div class="searchbox" id="sb"><input type="text" id="searchInput" placeholder="Es. consenso informato, Just Culture, privacy, breath test, PRO042…" autocomplete="off" autofocus><button class="iconbtn clear" id="searchClear" title="Cancella" aria-label="Cancella ricerca"></button></div>
             </label>
             <label class="f" style="flex:0 1 300px">Area SGI<select id="areaSelect"></select></label>
@@ -43,7 +43,7 @@
       </div>
 
       <div class="card mt" id="resultsSection" style="display:none">
-        <div class="hd"><h2>Risultati</h2><span class="spacer"></span><span class="badge b-teal" id="resultsCount">0</span></div>
+        <div class="hd"><h2 id="resultsTitle">Risultati</h2><span class="spacer"></span><span class="badge b-teal" id="resultsCount">0</span><button class="btn sm ghost" id="resetBtn" title="Annulla filtri e ricerca">Azzera</button></div>
         <div class="bd flush table-wrap"><table class="t"><thead><tr><th>Codice</th><th>Documento</th><th>Area</th><th>Rev. · data</th><th class="num">Apri</th></tr></thead><tbody id="resultsList"></tbody></table></div>
         <div id="resultsMore"></div>
       </div>
@@ -55,7 +55,7 @@
 
       <div class="card mt" id="linksCard">
         <div class="hd"><h2>Link stabili</h2></div>
-        <div class="bd small muted">Ogni documento ha un indirizzo che non cambia con la revisione: <span class="chip">/doc/TD-SGI-XXXNNN</span> apre il PDF corrente, <span class="chip">/m/TD-SGI-XXXNNN</span> apre la versione stampabile senza cover (moduli, informative, documenti esterni), <span class="chip">/p/&lt;codice shortcut&gt;</span> (es. /p/ECO003) apre la preparazione della prestazione. Il pulsante Link di ogni riga copia l'indirizzo negli appunti.</div>
+        <div class="bd small muted">Ogni documento ha un indirizzo che non cambia con la revisione: <span class="chip">/doc/TD-SGI-XXXNNN</span> apre il PDF corrente, <span class="chip">/m/TD-SGI-XXXNNN</span> apre la versione stampabile senza cover (moduli, informative, documenti esterni), <span class="chip">/p/&lt;codice shortcut&gt;</span> (es. /p/ECO003) apre la preparazione della prestazione. Il pulsante con la busta apre il tuo programma di posta con i link al documento già scritti; il pulsante con la catena copia il link stabile negli appunti. I riquadri in alto filtrano l'elenco per tipologia.</div>
       </div>
 
       <footer class="foot" id="footer"></footer>

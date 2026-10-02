@@ -40,6 +40,14 @@ h3 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacin
 .side a.active, .side button.navlink.active { background: var(--teal); color: #fff; }
 .side .count { margin-left: auto; background: var(--mauve); color: var(--jet); font-size: 11px; font-weight: 800; border-radius: 10px; padding: 0 7px; }
 .side svg { width: 17px; height: 17px; flex: none; opacity: .9; }
+.side select.areasel { width: calc(100% - 20px); margin: 4px 10px 8px; background: rgba(255,255,255,.06); color: #d6e8eb; border: 1px solid rgba(113,177,189,.3); border-radius: 8px; min-height: 36px; font-size: 13px; padding: 6px 10px; }
+.side select.areasel option { color: var(--ink); background: #fff; }
+.side .hint { margin: 0 20px 6px; font-size: 11.5px; color: #6f98a1; line-height: 1.4; }
+.kpi.clickable { cursor: pointer; transition: transform .12s, box-shadow .12s; }
+.kpi.clickable:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(1,33,44,.12); }
+.kpi.clickable.on { outline: 2px solid var(--blue); outline-offset: 1px; }
+.kpi .act { font-size: 11.5px; color: var(--blue); font-weight: 700; margin-top: 8px; text-transform: uppercase; letter-spacing: .06em; }
+.kpi.accent .act { color: var(--mauve); }
 .side .me { padding: 14px 18px; border-top: 1px solid rgba(113, 177, 189, .18); font-size: 12.5px; color: #9cc4cc; }
 .side .me .name { color: #fff; font-weight: 700; }
 .main { min-width: 0; }
@@ -96,10 +104,12 @@ label.f { display: flex; flex-direction: column; gap: 5px; font-size: 12px; font
 input, select { font: inherit; color: var(--ink); background: #fff; border: 1px solid #c9d7da; border-radius: 8px; padding: 8px 10px; min-height: 38px; width: 100%; }
 input:focus, select:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(113, 177, 189, .28); }
 .searchbox { position: relative; }
-.searchbox input { padding-left: 36px; min-height: 44px; font-size: 15px; }
-.searchbox svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--muted); pointer-events: none; }
-.searchbox .clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); display: none; }
-.searchbox .clear.on { display: inline-flex; }
+.searchbox input { padding-left: 36px; padding-right: 48px; min-height: 44px; font-size: 15px; }
+.searchbox > svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--muted); pointer-events: none; }
+.searchbox .clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); display: none; width: 28px; height: 28px; padding: 0; border-radius: 50%; background: var(--teal-050); color: var(--teal); align-items: center; justify-content: center; z-index: 2; }
+.searchbox .clear svg { width: 14px; height: 14px; display: block; }
+.searchbox .clear.on { display: flex; }
+.searchbox .clear:hover { background: var(--teal); color: #fff; }
 .seg { display: inline-flex; border: 1px solid #c9d7da; border-radius: 8px; overflow: hidden; flex-wrap: wrap; background: #fff; }
 .seg button { display: flex; align-items: center; gap: 6px; padding: 6px 12px; font: inherit; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; border: 0; border-right: 1px solid #c9d7da; background: none; }
 .seg button:last-child { border-right: 0; }

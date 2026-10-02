@@ -38,6 +38,12 @@ static/                 index.html (cruscotto), preparazioni.html, shell.js (sid
 
 I link `/doc/`, `/m/` e `/p/` non contengono la revisione: quando un documento sale di revisione il link resta valido e apre il file nuovo. Non cambiare mai i codici prestazione in GIPO: cambiano solo i PDF dietro.
 
+## Funzioni del cruscotto
+
+I quattro riquadri in alto sono filtri: Documenti attivi (tutti), Procedure e istruzioni (PRO+IDL), Moduli/informative/doc. esterni (MOD+INF+DEX), Governo del sistema (POL+MAN+PLN+REG+RPT); un secondo clic li disattiva, il pulsante Azzera riporta alla home. La sidebar ha la tendina delle aree (sincronizzata con quella del cruscotto), le scorciatoie Ultime emissioni (40 documenti piu' recenti per data), Documenti cardine, Versioni stampabili, Indice REG006, Mappa concettuale, Politica integrata, e il contatto qualita@toscanadiagnostica.it. Ogni riga ha PDF, Stampabile (se esiste), Allegati, busta (e-mail) e catena (copia link stabile).
+
+Invio per e-mail: il pulsante con la busta apre il client di posta dell'utente (Outlook) con oggetto e testo gia' compilati e i link stabili al PDF e alla versione stampabile. Una pagina web non puo' allegare un file a un messaggio: si inviano i link, che aprono sempre la revisione in vigore (e che non invecchiano come farebbe un allegato). L'invio diretto dal server come qualita@toscanadiagnostica.it (Microsoft Graph, Mail.Send) e' possibile in una fase successiva: richiede una registrazione app in Entra, il consenso dell'amministratore e un segreto da custodire su Render; va valutato se il volume di invii lo giustifica.
+
 ## Protezione dell'area documentale
 
 Per impostazione predefinita tutto e' pubblico (decisione AD 01/10/2026). Impostando su Render la variabile d'ambiente `SGI_PASSWORD` (e, se si vuole, `SGI_USER`, default `sgi`) il cruscotto e i PDF del SGI chiedono user e password (HTTP Basic Auth); le pagine `/preparazioni`, `/p/`, `/m/` e `/stampabili/` restano sempre aperte ai pazienti. Il browser ricorda le credenziali per la sessione. Si cambia in Render > Environment, senza toccare il codice.

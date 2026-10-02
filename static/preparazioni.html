@@ -28,7 +28,7 @@
       <div class="card">
         <div class="bd">
           <div class="filters" style="margin-bottom:6px">
-            <label class="f" style="flex:1 1 420px">Cerca la tua prestazione
+            <label class="f" style="flex:1 1 400px">Cerca la tua prestazione
               <div class="searchbox" id="sb"><input type="text" id="searchInput" placeholder="Codice prestazione o nome dell'esame (es. ecografia addome, curva glicemica, RM…)" autocomplete="off" autofocus><button class="iconbtn clear" id="searchClear" title="Cancella" aria-label="Cancella ricerca"></button></div>
             </label>
             <label class="f" style="flex:0 1 260px">Gruppo<select id="gruppoSelect"><option value="all">Tutti</option></select></label>
@@ -90,7 +90,7 @@
   Promise.all([fetch('/api/preparazioni').then(r => r.json()), fetch('/api/meta').then(r => r.json()), fetch('/api/informative').then(r => r.ok ? r.json() : [])])
     .then(([p, m, infs]) => {
       ROWS = p.righe || [];
-      shell('prep', m, null, null);
+      shell({ page: 'prep', meta: m, aree: null, shortcuts: [] });
       const gruppi = [...new Set(ROWS.map(grp).filter(Boolean))].sort();
       $('gruppoSelect').innerHTML = '<option value="all">Tutti i gruppi</option>' + gruppi.map(g => `<option value="${esc(g)}">${esc(g)}</option>`).join('');
       $('gruppoSelect').addEventListener('change', e => { gruppo = e.target.value; render($('searchInput').value); });
@@ -98,7 +98,7 @@
       if (!infs || !infs.length) $('allPrep').style.display = 'none';
       $('footer').innerHTML = `Toscana Diagnostica S.r.l. · Preparazioni agli esami · documenti del Sistema di Gestione Integrato, indice REG006 rev. ${esc(m.reg006_rev)} del ${esc(m.reg006_data)} · pubblicazione del ${esc(m.build)}`;
       const inp = $('searchInput'), clr = $('searchClear');
-      clr.innerHTML = icon('x', 16); $('sb').insertAdjacentHTML('afterbegin', icon('search'));
+      clr.innerHTML = icon('x', 14); $('sb').insertAdjacentHTML('afterbegin', icon('search'));
       const upd = () => clr.classList.toggle('on', inp.value.length > 0);
       inp.addEventListener('input', e => { upd(); render(e.target.value); });
       clr.addEventListener('click', () => { inp.value = ''; upd(); render(''); inp.focus(); });
