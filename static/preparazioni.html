@@ -70,7 +70,7 @@
       <td><span class="doc-code">${esc(r.shortcut || r.codice)}</span>${r.shortcut && r.shortcut !== r.codice ? `<div class="small muted">GIPO ${esc(r.codice)}</div>` : ''}</td>
       <td><div class="doc-title">${esc(r.descrizione)}</div><div class="doc-sintesi">${esc([grp(r), ex['Specialità']].filter(Boolean).join(' · '))}</div></td>
       <td><div class="doc-actions" style="justify-content:flex-start">${links || '<span class="badge b-grey">nessuna preparazione</span>'}</div></td>
-      <td>${url ? `<span class="url" data-url="${esc(url)}" title="Copia il link da inserire in GIPO">${esc(url)}</span>` : ''}</td>
+      <td>${url ? `<span class="url" data-url="${esc(url)}" title="Copia il link da inserire in GIPO (incollabile come collegamento cliccabile)">${esc(url)}</span>` : ''}</td>
     </tr>`;
   }
 

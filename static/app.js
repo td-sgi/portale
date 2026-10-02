@@ -1,6 +1,6 @@
 /* Portale SGI · cruscotto documentale */
 (function () {
-  const { icon, esc, norm, toast, copy, shell, mailtoDoc } = window.SGI;
+  const { icon, esc, norm, toast, copy, shell, mailtoDoc, copyDocLinks } = window.SGI;
   const FAMIGLIE = [['all', 'Tutti'], ['POL', 'Politiche'], ['MAN', 'Manuali'], ['REG', 'Regolamenti e Registri'], ['PLN', 'Piani'],
     ['PRO', 'Procedure'], ['IDL', 'Istruzioni'], ['MOD', 'Moduli'], ['INF', 'Informative'], ['DEX', 'Doc. esterni'], ['RPT', 'Report']];
   const KPI_GROUPS = {
@@ -62,8 +62,8 @@
       <td><div class="doc-actions">
         ${pdf ? `<a class="btn sm" href="${encodeURI(pdf)}" target="_blank" data-stop>PDF</a>` : '<span class="badge b-red">PDF assente</span>'}
         ${st ? `<a class="btn sm ghost" href="${encodeURI(st)}" target="_blank" title="Versione stampabile senza cover" data-stop>Stampabile</a>` : ''}${alleg}
-        <a class="iconbtn" title="Invia per e-mail (apre il tuo client di posta con i link al documento)" href="${mailtoDoc(d)}" data-stop>${icon('mail', 16)}</a>
-        <button class="iconbtn" title="Copia il link stabile" data-copy="/doc/${esc(d.code.split('_')[0])}" data-stop>${icon('link', 16)}</button>
+        <a class="iconbtn" title="Invia per e-mail (apre il tuo client di posta con i link al documento; i link vengono anche copiati come collegamenti)" href="${mailtoDoc(d)}" data-mail="${i}" data-stop>${icon('mail', 16)}</a>
+        <button class="iconbtn" title="Copia il link stabile (incollabile come collegamento cliccabile)" data-copy="/doc/${esc(d.code.split('_')[0])}" data-stop>${icon('link', 16)}</button>
       </div></td></tr>`;
   }
 
@@ -97,6 +97,7 @@
       const d = current[+tr.dataset.idx]; if (d && d.pdf) window.open(encodeURI('/docs/' + d.pdf), '_blank'); else toast('PDF non disponibile per questo documento.', true);
     }));
     $('resultsList').querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); copy(location.origin + b.dataset.copy); }));
+    $('resultsList').querySelectorAll('[data-mail]').forEach(a => a.addEventListener('click', e => { e.stopPropagation(); const d = current[+a.dataset.mail]; if (d) copyDocLinks(d); }));
   }
 
   function setSeg(fam) { $('famSeg').querySelectorAll('button').forEach(x => x.classList.toggle('on', x.dataset.f === fam)); }

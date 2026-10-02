@@ -25,23 +25,53 @@ window.SGI = (function () {
   const esc = t => { const d = document.createElement('div'); d.textContent = t == null ? '' : String(t); return d.innerHTML; };
   const norm = s => (s || '').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   function toast(msg, err) { let t = document.getElementById('toast'); if (!t) { t = document.createElement('div'); t.id = 'toast'; t.className = 'toast'; document.body.appendChild(t); } t.textContent = msg; t.className = 'toast show' + (err ? ' err' : ''); clearTimeout(t._to); t._to = setTimeout(() => t.classList.remove('show'), 3200); }
-  function copy(url, label) { navigator.clipboard.writeText(url).then(() => toast((label || 'Link copiato') + ': ' + url)).catch(() => prompt('Copia il link', url)); }
+  /* Copia negli appunti in doppio formato: testo semplice (l'URL) e HTML (collegamento cliccabile).
+     Incollando in Outlook, Word, Teams o in un campo di testo formattato (es. GIPO) si ottiene un link attivo;
+     incollando in un campo di solo testo si ottiene l'URL. */
+  function copy(url, label, text) {
+    const html = '<a href="' + esc(url) + '">' + esc(text || url) + '</a>';
+    const done = () => toast((label || 'Link copiato come collegamento') + ': ' + url);
+    const fallback = () => navigator.clipboard.writeText(url).then(done).catch(() => prompt('Copia il link', url));
+    if (window.ClipboardItem && navigator.clipboard.write) {
+      navigator.clipboard.write([new ClipboardItem({ 'text/plain': new Blob([url], { type: 'text/plain' }), 'text/html': new Blob([html], { type: 'text/html' }) })]).then(done).catch(fallback);
+    } else fallback();
+  }
+  /* Copia un frammento HTML arbitrario (con testo semplice equivalente). */
+  function copyHtml(html, plain, label) {
+    const done = () => toast(label || 'Copiato negli appunti');
+    const fallback = () => navigator.clipboard.writeText(plain).then(done).catch(() => {});
+    if (window.ClipboardItem && navigator.clipboard.write) {
+      navigator.clipboard.write([new ClipboardItem({ 'text/plain': new Blob([plain], { type: 'text/plain' }), 'text/html': new Blob([html], { type: 'text/html' }) })]).then(done).catch(fallback);
+    } else fallback();
+  }
 
   /* Indirizzo mailto per inviare un documento via e-mail con il client di posta dell'utente.
      Il PDF non puo' essere allegato da una pagina web: si inviano i link stabili (sempre alla revisione in vigore). */
+  function docLinks(d) {
+    const base = location.origin, b = d.code.split('_')[0];
+    const l = [{ label: 'Apri il PDF', url: base + '/doc/' + b }];
+    if (d.stampabile) l.push({ label: 'Versione stampabile (senza frontespizio)', url: base + '/m/' + b });
+    return l;
+  }
   function mailtoDoc(d) {
-    const base = location.origin;
-    const stable = base + '/doc/' + d.code.split('_')[0];
     const lines = [
       'Buongiorno,', '',
       'in allegato il riferimento al documento del Sistema di Gestione Integrato di Toscana Diagnostica:', '',
       d.code + ' - ' + d.title + ' (rev. ' + d.rev + ' del ' + d.data + ')',
       'Area: ' + d.area, '',
-      'Apri il PDF: ' + stable,
     ];
-    if (d.stampabile) lines.push('Versione stampabile (senza frontespizio): ' + base + '/m/' + d.code.split('_')[0]);
-    lines.push('', 'Il link apre sempre la revisione in vigore.', '', 'Cordiali saluti', 'Ufficio Qualità - Toscana Diagnostica', 'qualita@toscanadiagnostica.it');
+    docLinks(d).forEach(l => { lines.push(l.label + ':', '<' + l.url + '>', ''); });
+    lines.push('Il link apre sempre la revisione in vigore.', '', 'Cordiali saluti', 'Ufficio Qualità - Toscana Diagnostica', 'qualita@toscanadiagnostica.it');
     return 'mailto:?subject=' + encodeURIComponent('[SGI TD] ' + d.code + ' - ' + d.title) + '&body=' + encodeURIComponent(lines.join('\n'));
+  }
+  /* Al clic sulla busta: oltre ad aprire il client di posta, mette negli appunti i link in formato HTML,
+     cosi' se il messaggio li mostra come testo basta Ctrl+V per incollarli come collegamenti cliccabili. */
+  function copyDocLinks(d) {
+    const ls = docLinks(d);
+    const html = '<p><b>' + esc(d.code + ' - ' + d.title) + '</b> (rev. ' + esc(d.rev) + ' del ' + esc(d.data) + ')</p>' +
+      ls.map(l => '<p>' + esc(l.label) + ': <a href="' + esc(l.url) + '">' + esc(l.url) + '</a></p>').join('');
+    const plain = d.code + ' - ' + d.title + '\n' + ls.map(l => l.label + ': ' + l.url).join('\n');
+    copyHtml(html, plain, 'E-mail aperta. I link sono anche negli appunti come collegamenti: Ctrl+V nel messaggio se compaiono come testo');
   }
 
   /* Sidebar e topbar. opts: { page:'docs'|'prep', meta, aree:[{name,count}], onArea(areaName|'all'), shortcuts:[{icon,label,action,active}] } */
@@ -81,5 +111,5 @@ window.SGI = (function () {
     side.querySelectorAll('[data-sc]').forEach(b => b.addEventListener('click', () => { shortcuts[+b.dataset.sc].action(); side.classList.remove('open'); }));
     return { setArea: v => { if (sel) sel.value = v; }, setShortcut: label => side.querySelectorAll('[data-sc]').forEach(b => b.classList.toggle('active', b.textContent.trim().startsWith(label || '\u0000'))) };
   }
-  return { icon, esc, norm, toast, copy, shell, mailtoDoc };
+  return { icon, esc, norm, toast, copy, copyHtml, shell, mailtoDoc, copyDocLinks };
 })();
