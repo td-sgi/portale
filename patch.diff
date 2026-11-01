@@ -1,0 +1,21 @@
+--- a/README.md
++++ b/README.md
+@@ -48,6 +48,18 @@
+ 
+ Per impostazione predefinita tutto e' pubblico (decisione AD 01/10/2026). Impostando su Render la variabile d'ambiente `SGI_PASSWORD` (e, se si vuole, `SGI_USER`, default `sgi`) il cruscotto e i PDF del SGI chiedono user e password (HTTP Basic Auth); le pagine `/preparazioni`, `/p/`, `/m/` e `/stampabili/` restano sempre aperte ai pazienti. Il browser ricorda le credenziali per la sessione. Si cambia in Render > Environment, senza toccare il codice.
+ 
++## Copia conforme nella Suite (01/11/2026)
++
++Richiesta del CEO: "Vorrei fare poi la stessa cosa con SGI! Perfettamente!", sul modello del Portale Service. Il Portale SGI esiste in due presentazioni identiche: questo sito pubblico, che **resta la fonte dei documenti**, e il widget "SGI Management" della Suite TD (https://suite.toscanadiagnostica.it/sgi), che ne è uno **specchio di sola lettura** per gli utenti della Suite (personale e clienti service con accesso): stesso cruscotto (ricerca full-text, riquadri, famiglie e aree), Ultime emissioni, Documenti cardine, Versioni stampabili, Indice REG006, Mappa concettuale, Politica integrata, Preparazioni agli esami, contatto qualita@.
++
++- La Suite legge da qui `/api/meta` e `/data/{docs,preparazioni,fulltext}.json` ogni 6 ore (e con "Aggiorna adesso" nelle Impostazioni del widget): se cambia `meta.build` o uno dei JSON, sostituisce i contenuti e svuota la propria cache dei PDF. I PDF (`/docs/...`, `/stampabili/...`) li scarica alla prima apertura e li tiene in cache.
++- Nella Suite i link stabili valgono anche sotto `https://suite.toscanadiagnostica.it/sgi/doc/<codice>`, `/sgi/m/<codice>`, `/sgi/p/<shortcut>` (con l'account della Suite); copia link ed e-mail dal widget usano sempre i link pubblici di questo sito. In GIPO e negli SMS ai pazienti restano i link di questo sito.
++- **Protezione con password**: se su Render si imposta `SGI_PASSWORD`, la Suite deve conoscere le stesse credenziali (SGI Management > Impostazioni > Credenziali dell'origine, oppure le variabili `SGI_PORTAL_USER` e `SGI_PORTAL_PASSWORD` della Suite su Render), altrimenti lo specchio resta fermo all'ultima pubblicazione letta e le Impostazioni del widget mostrano l'errore.
++- Se dalla rete della Suite il sito non fosse raggiungibile, nelle Impostazioni del widget si carica lo ZIP di questo repository (GitHub > Code > Download ZIP): stessi contenuti, PDF compresi.
++- **La routine di aggiornamento non cambia**: `build\aggiorna_portale.bat` come sempre (passo 11 della routine RSGI). Non serve fare nulla nella Suite.
++- Non rinominare né spostare `data/*.json`, `/api/meta`, le cartelle `docs/` e `stampabili/` e i campi di `docs.json` e `preparazioni.json`: sono il contratto con lo specchio. Una nuova pagina o un nuovo JSON vanno aggiunti anche alla Suite.
++- Il sito non ha voci che puntano alle app di origine (nc., orders., circolari.): nessun collegamento da rimappare verso i widget della Suite.
++
+ ## Prima pubblicazione (una volta sola)
+ 
+ 1. Creare su GitHub un repository privato `td-sgi-portale` (vuoto, senza README).
