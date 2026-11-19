@@ -1,11 +1,11 @@
 {
- "reg006_rev": "83",
- "reg006_data": "29 ottobre 2026",
- "n_docs": 567,
- "n_pdf": 567,
- "n_stampabili": 353,
+ "reg006_rev": "85",
+ "reg006_data": "19 novembre 2026",
+ "n_docs": 570,
+ "n_pdf": 570,
+ "n_stampabili": 356,
  "n_prestazioni": 566,
- "build": "30/10/2026 07:44",
+ "build": "19/11/2026 13:28",
  "mancanti": [],
  "esclusi": [],
  "aree": [
