@@ -1870,6 +1870,75 @@
 "url": "/p/B533"
 },
 {
+"codice": "B543B",
+"shortcut": "B543B",
+"descrizione": "Esame di Base del Liquido Seminale (Spermiogramma)",
+"preparazione_raw": "TD-SGI-INF079_00_Informativa Raccolta Liquido Seminale per Spermiogramma.pdf",
+"preparazioni": [
+"TD-SGI-INF079"
+],
+"extra": {
+"Codice shortcut": "B543B",
+"Codice LIS": "B543B",
+"Gruppo": "- Laboratorio di Analisi",
+"Specialità": "Patologia clinica e biochimica clinica"
+},
+"link": [
+{
+"code": "TD-SGI-INF079_00",
+"title": "Informativa Raccolta Liquido Seminale per Spermiogramma",
+"file": "stampabili/TD-SGI-INF079_00 - Informativa Raccolta Liquido Seminale per Spermiogramma.pdf"
+}
+],
+"url": "/p/B543B"
+},
+{
+"codice": "B544",
+"shortcut": "B544",
+"descrizione": "Spermiogramma con Test di Capacitazione",
+"preparazione_raw": "TD-SGI-INF079_00_Informativa Raccolta Liquido Seminale per Spermiogramma.pdf",
+"preparazioni": [
+"TD-SGI-INF079"
+],
+"extra": {
+"Codice shortcut": "B544",
+"Codice LIS": "B544",
+"Gruppo": "- Laboratorio di Analisi",
+"Specialità": "Patologia clinica e biochimica clinica"
+},
+"link": [
+{
+"code": "TD-SGI-INF079_00",
+"title": "Informativa Raccolta Liquido Seminale per Spermiogramma",
+"file": "stampabili/TD-SGI-INF079_00 - Informativa Raccolta Liquido Seminale per Spermiogramma.pdf"
+}
+],
+"url": "/p/B544"
+},
+{
+"codice": "B545",
+"shortcut": "B545",
+"descrizione": "Test di Frammentazione del DNA Spermatico",
+"preparazione_raw": "TD-SGI-INF079_00_Informativa Raccolta Liquido Seminale per Spermiogramma.pdf",
+"preparazioni": [
+"TD-SGI-INF079"
+],
+"extra": {
+"Codice shortcut": "B545",
+"Codice LIS": "B545",
+"Gruppo": "- Laboratorio di Analisi",
+"Specialità": "Patologia clinica e biochimica clinica"
+},
+"link": [
+{
+"code": "TD-SGI-INF079_00",
+"title": "Informativa Raccolta Liquido Seminale per Spermiogramma",
+"file": "stampabili/TD-SGI-INF079_00 - Informativa Raccolta Liquido Seminale per Spermiogramma.pdf"
+}
+],
+"url": "/p/B545"
+},
+{
 "codice": "842450",
 "shortcut": "B583",
 "descrizione": "Neisseria gonorrhoeae esame colturale",
